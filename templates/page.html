@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% include "partials/header.html" %}
+  {% if page.extra.header_image %}
+    <div
+      class="container my-6 bg-contain rounded-md"
+      style="background: center / cover no-repeat url('{{ config.base_url ~ page.extra.header_image }}'), black"
+    >
+      <div
+        class="container-mini text-white p-8 text-2xl font-bold"
+        style="text-shadow: 0 0 1em black;"
+      >
+        {{ page.title }}
+      </div>
+    </div>
+  {% endif %}
+  <main class="container-mini p-8 prose">
+    {% include "partials/main.html" %}
+  </main>
+  {% include "partials/footer.html" %}
+{% endblock %}

@@ -14,3 +14,11 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+site_title = ""
+site_logo = ""
+site_logo_alt = ""
+site_logo_sr = ""
+site_tagline = ""
+copyright = ""
+header_cta = ""
+header_cta_href = ""

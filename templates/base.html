@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    {{ config.extra.site_title }} · {% block title %}
+      {%- if page %}
+        {{ page.title }}
+      {% elif section %}
+        {{ section.title }}
+      {% elif title %}
+        {{ title }}
+      {% endif -%}
+    {% endblock %}
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% include "partials/load_tailwind.html" %}
+</head>
+<body>
+  {% block body %}
+  {% endblock %}
+</body>
+</html>

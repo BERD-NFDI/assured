@@ -1,0 +1,10 @@
+{% block content %}
+  {% if page %}
+    {{ page.content | safe }}
+  {% elif section %}
+    {# The global /_index.md uses this template #}
+    {{ section.content | safe }}
+  {% else %}
+    Unspecified content type
+  {% endif %}
+{% endblock %}

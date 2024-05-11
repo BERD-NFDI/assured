@@ -1,0 +1,7 @@
+<script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<style type="text/tailwindcss">
+  {{ load_data(path="sass/base.css") | safe }}
+</style>
+<script>
+  {{ load_data(path="tailwind.config.js") | replace(from="module.exports = {", to="tailwind.config = {")  | safe }}
+</script>
