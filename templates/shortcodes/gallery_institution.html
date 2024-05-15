@@ -1,0 +1,21 @@
+{% import "macros/media.html" as media %}
+{% set data = load_data(path=data_path) %}
+
+<div class="container-mini">
+  <div class="container-escape my-16 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-12">
+  {%- for institution in data.institution %}
+    <div class="text-center p-4 flex justify-center">
+      {% if institution.image -%}
+      {{-
+        media::picture(
+          img=image_path ~ institution.image,
+          widths=[320, 640],
+          class="block w-full",
+          attrs=""
+        )
+      -}}
+      {%- endif %}
+    </div>
+  {% endfor -%}
+  </div>
+</div>

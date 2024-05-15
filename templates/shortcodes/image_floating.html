@@ -1,0 +1,14 @@
+{% import "macros/media.html" as media %}
+
+<div
+  class="max-w-full md:max-w-md p-8 pt-0 md:float-{{ float }} {% if float == "left" %}lg:-ml-40{% else %}lg:-mr-40{% endif %}"
+>
+  {{-
+    media::picture_fill_square(
+      img=src,
+      widths=[384, 384*2],
+      class="rounded-full shadow-lg",
+      attrs="style='border-radius: 40% 0;'"
+    )
+  -}}
+</div>

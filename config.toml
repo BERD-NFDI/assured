@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://handbook.soda-lab.org"
+base_url = "https://felixhenninger.github.io/assured/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -14,11 +14,11 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-site_title = ""
-site_logo = ""
-site_logo_alt = ""
-site_logo_sr = ""
-site_tagline = ""
-copyright = ""
-header_cta = ""
-header_cta_href = ""
+site_title = "Assured project"
+site_logo = "assets/logo.png"
+site_logo_alt = "Assured logo"
+site_logo_sr = "Assured project"
+site_tagline = "Safe research by safe people"
+copyright = "2024&ndash; Assured collaboration. All rights reserved."
+header_cta = "Contact us"
+header_cta_href = "contact"

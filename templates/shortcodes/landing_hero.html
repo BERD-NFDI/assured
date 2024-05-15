@@ -1,0 +1,19 @@
+<div
+  class="text-white bg-gray-900"
+  style="background:
+    radial-gradient(ellipse 100% 100% at top, transparent, rgb(17 24 39 / var(--tw-bg-opacity))),
+    center / cover no-repeat url('{{ config.base_url ~ background_image }}'),
+    black;"
+>
+  <div class="container lg:py-40 drop-shadow-lg">
+    <div class="text-white/70 text-lg font-bold py-6">{{ subtitle }}</div>
+    <h1 class="text-2xl font-bold tracking-tight leading-tight text-balance md:max-w-2xl">
+      {{ tagline }}
+    </h1>
+    <div class="py-8">
+      <a href="{{ config.base_url ~ more_href }}" class="text-white/70 text-lg font-bold">
+        {{ more | safe }}
+      </a>
+    </div>
+  </div>
+</div>
