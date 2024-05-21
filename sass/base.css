@@ -9,6 +9,10 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+.prose {
+  @apply text-base;
+}
+
 .container {
   @apply mx-auto w-full max-w-7xl px-6 py-10 lg:px-8;
 }
