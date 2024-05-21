@@ -1,0 +1,27 @@
+{% import "macros/media.html" as media %}
+{% set data = load_data(path=data_path) %}
+
+<div class="container-escape my-16 grid grid-cols-2 md:grid-cols-3 gap-12 lg:gap-20">
+{%- for person in data.person %}
+  <div class="text-center">
+    {% if person.image -%}
+    {{-
+      media::picture_fill_square(
+        img=image_path ~ person.image,
+        widths=[320, 640],
+        class="rounded-full shadow-lg",
+        attrs="width='320' height='320'"
+      )
+    -}}
+    {%- endif %}
+    <div>
+      <span class="font-semibold text-balance">
+        {{ person.name }}
+      </span><br>
+      <span class="text-sm leading-3 text-balance">
+        {{ person.institution }}
+      </span>
+    </div>
+  </div>
+{% endfor -%}
+</div>
