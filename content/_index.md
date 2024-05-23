@@ -5,11 +5,12 @@ sort_by = "weight"
 
 {{
   landing_hero(
-    tagline="Safe research by safe people"
+    tagline="Safe research<br>by safe people"
     subtitle="Plan for a secure future"
     more="Learn more &rarr;"
     more_href="/about"
-    background_image="/images/calvin-hanson-rsvSz4vgX2Y-unsplash.jpg"
+    logo_image="assets/mark.svg"
+    background_image="images/calvin-hanson-rsvSz4vgX2Y-unsplash.jpg"
   )
 }}
 {{
