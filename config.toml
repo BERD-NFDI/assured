@@ -15,7 +15,7 @@ highlight_code = false
 [extra]
 # Put all your custom variables here
 site_title = "Assured project"
-site_logo = "assets/logo.png"
+site_logo = "assets/logo.svg"
 site_logo_alt = "Assured logo"
 site_logo_sr = "Assured project"
 site_tagline = "Safe research by safe people"
