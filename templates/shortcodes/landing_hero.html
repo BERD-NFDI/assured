@@ -1,8 +1,10 @@
+{% import "macros/media.html" as media %}
 <div
   class="text-white bg-gray-900"
   style="background:
     radial-gradient(ellipse 100% 100% at top, transparent, rgb(17 24 39 / var(--tw-bg-opacity))),
-    center / cover no-repeat url('{{ config.base_url ~ background_image }}'),
+    center / cover no-repeat {{ media::image_set(img=background_image, widths=[720]) }},
+    {#- More background resolutions (720, 1920, 2560, & 3840px) would be nice, see media macros -#}
     black;"
 >
   <div class="container md:py-32 lg:grid lg:grid-cols-2 lg:gap-8 lg:py-40 lg:pb-80 drop-shadow-lg">
