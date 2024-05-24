@@ -5,7 +5,7 @@
     {% else %}
       {# Render multiple widths #}
       srcset="{% for w in widths -%}
-        {%- set image = resize_image(path=img, width=w, op='fit_width') -%}{{ image.url }} {{ w }}w
+        {%- set image = resize_image(path=img, width=w, op='fit_width') -%}{{ image.url }} 1x
         {%- if not loop.last %}, {% endif -%}
         {%- endfor %}"
       {# Render largest size as fallback #}
@@ -16,6 +16,17 @@
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
 {% endmacro picture %}
+
+{% macro image_set(img, widths) -%}
+  image-set(
+    {#- Render multiple widths -#}
+    {%- for w in widths -%}
+      {%- set image = resize_image(path=img, width=w, op='fit_width') -%}
+      url('{{ image.url }}') 1x{#{{ w }}w Absolute sizes aren't supported yet #}
+      {%- if not loop.last %}, {% endif -%}
+    {%- endfor -%}
+  ){#- -#}
+{%- endmacro imageset %}
 
 {% macro picture_fill_square(img, widths, class="", attrs="") %}
   <img
