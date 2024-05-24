@@ -1,11 +1,13 @@
 {% extends "base.html" %}
+{% import "macros/media.html" as media %}
 
 {% block body %}
   {% include "partials/header.html" %}
   {% if page.extra.header_image %}
     <div
       class="container my-6 bg-contain rounded-md"
-      style="background: center / cover no-repeat url('{{ config.base_url ~ page.extra.header_image }}'), black"
+      style="background: center / cover no-repeat {{ media::image_set(img=page.extra.header_image, widths=[1920]) }}, black"
+      {#- More background resolutions would be nice, see media macros -#}
     >
       <div
         class="container-mini text-white p-8 text-2xl font-bold"
