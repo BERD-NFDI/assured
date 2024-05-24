@@ -24,15 +24,9 @@ sort_by = "weight"
     ]
   )
 }}
-
-{% container() %}
-<div class="prose prose-xl max-w-full mt-16">
-  <h2 class="text-center">Partners</h2>
-</div>
-{% end %}
-
 {{
   gallery_institution(
+    title="Partners"
     data_path="partners.toml"
     image_path="team/logos/"
   )
