@@ -6,7 +6,7 @@ weight = 2
 # Our team
 
 {% page_lead() %}
-Our team is pretty awesome!
+ASSURED's team at a glance.
 {% end %}
 
 {{
