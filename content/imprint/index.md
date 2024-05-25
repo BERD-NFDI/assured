@@ -6,48 +6,42 @@ weight = 12
 main_nav = false
 +++
 
-# Legal Notice
+# Impressum
 
-This website is administered by the Chair for Statistics and Data Science in Social Sciences and the Humanities (SODA) headed by Prof. Dr. Frauke Kreuter at the Ludwig-Maximilians University of Munich.
+Angaben gemäß § 5 TMG
+## Kontakt
 
-## Contact information
+BERD@NFDI
+Universität Mannheim <br>
+Schloss<br>
+68131 Mannheim<br>
+Telefon: 0621/181-2222
+Internet: [https://www.uni-mannheim.de](https://www.uni-mannheim.de)
 
-**Address:**<br>
-Geschwister-Scholl-Platz 1<br>
-80539 München<br>
-Phone: +49 89 2180-0
 
-**LMU sales tax ID number pursuant to § 27 a Sales Tax Law:** DE 811205325
+# Haftungsausschluss:
 
-**Responsible for content according to § 18 para. 2 MStV:**<br>
-Ludwig-Maximilians-Universität München<br>
-Chair for Statistics and Data Science in Social Sciences and the Humanities (SODA)<br>
-Prof. Dr. Frauke Kreuter<br>
-Email: assured4sr@gmail.com
+## Haftung für Links
+Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
 
-**Authorised Oversight Agency:**<br>
-Bavarian State Ministry for Science and Art<br>
-Salvatorstraße 2<br>
-80333 Munich<br>
-Germany<br>
-[https://www.km.bayern.de/index_wm.html](https://www.km.bayern.de/index_wm.html)
+Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft.
 
-## Statement of Release
+Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 
-The information herein is correct to the best of our knowledge, however, error cannot be avoided with absolute certainty. Solely the specifications in the pertinent legal bases (laws, orders, statutes) are legally binding.
+## Urheberrecht
 
-We cannot assume any liability for the particular currency, accuracy, completeness, and availability of the provided information.
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.
 
-We are not liable for damages caused by the use of this internet offer. This exclusion of liability shall not apply if the regulations of § 839 BGB (liability for violation of official duty) are involved. We are not liable for any damages caused by call-up or downloading of data by damaged software or by the installation or use of software.
+Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
 
-This exclusion of liability does not apply to information that falls within the scope of the Order (EU) 2016/679 of the European Parliament and of the Council dated 27 April 2016 (General Data Protection Regulation). The accuracy and currency of this information is guaranteed.
+Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-## Disclaimer
+## Datenschutz
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich.
+Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 
-The information offered by LMU contains cross-references (“links”) to other internet offers by the LMU or by external, third-parties. Basically the internet pages will open automatically in a new window.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen.
 
-Through this cross-reference, LMU handles access for use of this content (§ 8 Telemedia Law). We are not responsible for this “foreign” content since we do not initiate the transmission of the information, have not selected the addressee of the transmitted information and also have not selected or changed the transmitted information.
+Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
-An automatic, short-term interim saving of this “foreign information” by the LMU does not occur due to the selected call-up and linking method, so that the LMU does not thereby assume any responsibility for this foreign content.
-
-However, upon initial linking with these internet offers, LMU has checked the foreign content to determine whether it may trigger a potential responsibility under civil or penal law. But we do not receive any automatic information about changes to the foreign internet offers and thus cannot constantly monitor their content for any changes. Therefore, we also cannot assume any responsibility for them. Solely the particular merchant of the foreign internet offer is liable for illegal, erroneous or incomplete content, and in particular for damages which arise from the use or non-use of information by third parties. However, we endeavor to check the included links regularly with regard to these named criteria.
+_Website Impressum erstellt durch impressum-generator.de von der Kanzlei Hasselbach_
