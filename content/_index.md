@@ -17,10 +17,8 @@ sort_by = "weight"
   landing_blocks(
     header="Training the research community in the safe and ethical use of sensitive research data."
     boxes=[
-      "Easy Demonstration / We provide some of the finest quality, most responsive and reliable, and cost-effective services and solutions.",
-      "Providing Knowledge / We provide some of the finest quality, most responsive and reliable, and cost-effective services and solutions.",
-      "Improving Efficiency / We provide some of the finest quality, most responsive and reliable, and cost-effective services and solutions.",
-      "Easy Demonstration / We provide some of the finest quality, most responsive and reliable, and cost-effective services and solutions."
+      "Accessing / Do you want to access sensitive data? Complete the Assured training to learn how to use data safely and ethically.",
+      "Providing Access / Do you want to streamline the access to your sensitive data? Do you want to train and develop your team? Assured provides the training and authentication."
     ]
   )
 }}
