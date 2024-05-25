@@ -6,6 +6,7 @@ sort_by = "weight"
 {{
   landing_hero(
     tagline="Safe research<br>by safe people"
+    subtitle=""
     more="Learn more &rarr;"
     more_href="/about"
     logo_image="assets/mark.svg"
