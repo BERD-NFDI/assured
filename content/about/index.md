@@ -14,7 +14,7 @@ Training the research community in the safe and ethical use of sensitive researc
 
 ## What is our vision?
 
-ASSURED aims to provide training for the safe and ethical use of sensitive, potentially disclosive data for the research community. Through this training, we want to help prepare researchers to work with these data and also help those who work in Trusted Research Environments to gain recognition for their expertise. about text.
+ASSURED aims to provide training for the safe and ethical use of sensitive, potentially disclosive data for the research community. Through this training, we want to help prepare researchers to work with these data and also help those who work in Trusted Research Environments to gain recognition for their expertise.
 
 {{
   image_floating(
@@ -42,5 +42,5 @@ Over time we hope to expand ASSURED to include modules for other stakeholders, b
 
 ## Want to get involved?
 
-If you’re interested in learning more about the project, keep an eye on the News & Events for upcoming presentations and announcements. If you’re interesting in working with us or contributing to the project, please get in touch via [ADD ASSURED EMAIL]. We’d love to hear from you!
+If you’re interested in learning more about the project, keep an eye on the News & Events for upcoming presentations and announcements. If you’re interesting in working with us or contributing to the project, please get in touch via [assured4sr@gmail.com](assured4sr@gmail.com). We’d love to hear from you!
 
