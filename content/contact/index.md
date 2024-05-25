@@ -25,12 +25,13 @@ We're looking forward to hearing from you!
 {{
   contact(
     title="How to reach out"
-    phone="+49 (123) 456 789"
+    phone="0621/181-2222"
     email="assured4sr@gmail.com"
     address="
-      Mathematikon
-      Berliner Straße 4
-      69120 Heidelberg
+      BERD@NFDI
+      Universität Mannheim
+      Schloss
+      68131 Mannheim
     "
   )
 }}
