@@ -1,8 +1,9 @@
 +++
 title = "ASSURED Trainings"
+weight = 3
 
 [extra]
-header_image = "pexels-photo-270557.jpeg"
+header_image = "about/pexels-photo-270557.jpeg"
 +++
 
 # Assured: Adaptable Online Training
