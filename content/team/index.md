@@ -1,9 +1,9 @@
 +++
-title = "Our Team"
+title = "Team"
 weight = 2
 +++
 
-# Our team
+# Team
 
 {% page_lead() %}
 ASSURED's team at a glance.
