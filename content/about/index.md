@@ -1,5 +1,5 @@
 +++
-title = "About Assured"
+title = "About"
 weight = 1
 
 [extra]
