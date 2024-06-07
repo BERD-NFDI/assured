@@ -1,5 +1,5 @@
 +++
-title = "ASSURED Trainings"
+title = "Training"
 weight = 3
 
 [extra]
