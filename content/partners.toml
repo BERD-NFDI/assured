@@ -7,14 +7,6 @@ name = "KONSORT-SWD"
 image = "konsort-swd.svg"
 
 [[institution]]
-name = "GESIS"
-image = "gesis.svg"
-
-[[institution]]
-name = "KONSORT-SWD"
-image = "konsort-swd.svg"
-
-[[institution]]
 name = "German Human Genome-Phenome Archive"
 image = "ghga.svg"
 
