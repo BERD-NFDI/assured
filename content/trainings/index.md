@@ -6,24 +6,24 @@ weight = 3
 header_image = "about/pexels-photo-270557.jpeg"
 +++
 
-# Assured: Adaptable Online Training
+## ASSURED Modules 
 
-Assured offers a versatile online training program with various module types tailored to meet different needs.
+**ASSURED** is an adaptable online training with several modules types that cover different needs.
 
-## Core Modules
-Our core modules establish a minimum standard expected of researchers and professional staff when accessing and handling sensitive data. Completing these modules grants researchers a standardized accreditation recognized across Research Data Centres (RDCs) in Germany.
+Our **core modules** represent a minimum standard that is expected of researchers and professional staff wherever they access and handle sensitive data. The completion of the core modules provides researchers with a standardized accreditation recognised across Research Data Centres in Germany. 
 
-## Supplementary Modules
-In addition to core knowledge, we provide supplementary specific modules that cover:
+Beyond the basic knowledge we offer supplementary **specific modules** for
+1. **Individual Secure Data Services** like GESIS Safe Haven
+2. Different **Types of Data** (e.g. genomics data)
+3. Various **Tasks and Roles** such as Data Producer.
 
-1. **Individual Secure Data Services:** Modules like GESIS Safe Haven.
-2. **Different Types of Data:** For instance, genomics data.
-3. **Various Tasks and Roles:** Such as Data Producer.
+This enables Research Data Centres to create individual learning pathways for their researchers and professional staff by combining the core modules with other required modules and courses. 
 
-These supplementary modules enable RDCs to create individualized learning pathways by combining core modules with other required courses.
+Additionally, the specific courses targeted at Research Data Centre staff are designed to better support their professional development.
 
-## Professional Development
-Specific courses aimed at RDC staff are designed to enhance their professional development, ensuring they are well-equipped to support researchers and handle sensitive data efficiently.
 
-## Current Status
-The modules are currently in development, with a focus on delivering a comprehensive and adaptable learning experience.
+The modules are currently in development. To get an idea of how the contents will look like, we invite you watch the video on the Five Safes Framework:
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8D8ib1EWKYw?si=3pajcGp-JOlRLdCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
