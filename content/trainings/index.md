@@ -1,14 +1,17 @@
 +++
 title = "Training"
-weight = 3
+weight = 1
 
 [extra]
 header_image = "about/pexels-photo-270557.jpeg"
 +++
 
-## ASSURED Modules 
+# ASSURED Modules 
 
-**ASSURED** is an adaptable online training with several modules types that cover different needs.
+{% page_lead() %}
+ASSURED is an adaptable online training with several modules types that cover different needs.
+{% end %}
+
 
 Our **core modules** represent a minimum standard that is expected of researchers and professional staff wherever they access and handle sensitive data. The completion of the core modules provides researchers with a standardized accreditation recognised across Research Data Centres in Germany. 
 
@@ -24,6 +27,15 @@ Additionally, the specific courses targeted at Research Data Centre staff are de
 
 The modules are currently in development. To get an idea of how the contents will look like, we invite you watch the video on the Five Safes Framework:
 
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8D8ib1EWKYw?si=3pajcGp-JOlRLdCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    src="https://www.youtube.com/embed/8D8ib1EWKYw?si=3pajcGp-JOlRLdCQ" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
 </div>
