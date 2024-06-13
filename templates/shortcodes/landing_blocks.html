@@ -8,21 +8,17 @@
     {% for box in boxes %}
       {% set data = box | split(pat="/") %}
       <div class="w-full sm:w-1/2 md:w-2/5 text-black bg-white text-center shadow-lg rounded-lg m-4 p-12">
-        
-        <div class="flex lg:flex flex-row pt-0 pb-5">
-          {% if loop.index == 2 %}
-            <img class="block opacity-90 w-24 h-24 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32" src="{{ config.base_url ~ logo_data }}">
-          {% else %}
-            <img class="block opacity-90 w-24 h-24 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-32 lg:h-32" src="{{ config.base_url ~ logo_researcher }}">
-          {% endif %}
-        </div>
+        <img
+          class="mx-auto mb-4 lg:mb-8 opacity-90 w-24 h-24 lg:w-32 lg:h-32"
+          src="{{ config.base_url ~ images[loop.index0] }}"
+        >
 
-        <!-- if box titles needed:
+        {# Box titles
         <div class="text-lg font-bold leading-tight mb-4">
           {{ data.0 | trim() }}
         </div>
-        -->
-        
+        #}
+
         <div class="text-lg font-semibold leading-tight mb-4">
           {{ data.1 | trim() }}
         </div>
