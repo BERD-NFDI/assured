@@ -1,9 +1,6 @@
 +++
-title = "Get in touch"
+title = "Contact"
 weight = 10
-
-[extra]
-main_nav = false
 +++
 
 # Get in touch
