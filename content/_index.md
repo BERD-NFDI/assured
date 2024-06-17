@@ -17,7 +17,7 @@ sort_by = "weight"
 }}
 {{
   landing_blocks(
-    header="ASSURED aims to provide training for the safe and ethical use of sensitive, potentially disclosive data for the research community.<br>Through this training, we want to help prepare researchers to work with these data and also help those who work in Trusted Research Environments to gain recognition for their expertise."
+    header="ASSURED provides training for the safe and ethical use of sensitive, potentially disclosive data for the research community.<br>Through this training, we prepare researchers to work with these data and also help those who work in Trusted Research Environments to gain recognition for their expertise."
     boxes=[
       "Accessing / Do you want to access sensitive data? Complete the Assured training to learn how to use data safely and ethically.",
       "Providing Access / Do you want to streamline the access to your sensitive data? Do you want to train and develop your team? Assured provides the training and authentication."
