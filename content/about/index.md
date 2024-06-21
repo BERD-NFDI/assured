@@ -3,7 +3,7 @@ title = "About"
 weight = 1
 
 [extra]
-header_image = "about/pexels-photo-270557.jpeg"
+header_image = "images/rcode.jpg"
 +++
 
 # Our aim: Safety
