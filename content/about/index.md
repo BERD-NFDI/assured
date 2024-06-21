@@ -18,7 +18,7 @@ ASSURED aims to provide training for the safe and ethical use of sensitive, pote
 
 {{
   image_floating(
-    src="about/Images_People_content1.jpg"
+    src="images/singlehandvert.jpg"
     alt="Placeholder image"
     float="right"
   )
@@ -34,7 +34,7 @@ Over time we hope to expand ASSURED to include modules for other stakeholders, b
 
 {{
   image_floating(
-    src="about/pexels-photo-270557-cropped.jpeg"
+    src="images/rcodeclose.jpg"
     alt="Placeholder image"
     float="left"
   )
