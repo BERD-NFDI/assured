@@ -9,10 +9,10 @@ sort_by = "weight"
     subtitle=""
     more="Learn more &rarr;"
     more_href="/about"
-    logo_image="assets/mark.svg"
+    logo_image="assets/logo.svg"
     logo_researcher="assets/safeResearcher.svg"
     logo_data="assets/safeDataCenter.svg"
-    background_image="images/calvin-hanson-rsvSz4vgX2Y-unsplash.jpg"
+    background_image="public/images/Simon-topdown.jpg"
   )
 }}
 {{
