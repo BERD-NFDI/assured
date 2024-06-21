@@ -12,7 +12,7 @@ sort_by = "weight"
     logo_image="assets/logo.svg"
     logo_researcher="assets/safeResearcher.svg"
     logo_data="assets/safeDataCenter.svg"
-    background_image="public/images/Simon-topdown.jpg"
+    background_image="images/Simon-topdown.jpg"
   )
 }}
 {{
