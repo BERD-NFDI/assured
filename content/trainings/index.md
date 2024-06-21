@@ -3,7 +3,7 @@ title = "Training"
 weight = 1
 
 [extra]
-header_image = "about/pexels-photo-270557.jpeg"
+header_image = "images/rcodeangelhoriz.jpg"
 +++
 
 # ASSURED Modules 
