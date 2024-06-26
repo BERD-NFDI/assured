@@ -50,7 +50,7 @@ ASSURED would like to make sure you are fully aware of all of your data protecti
 - **The right to object to processing** – You have the right to object to ASSURED’s processing of your personal data, under certain conditions.
 - **The right to data portability** – You have the right to request that ASSURED transfer the data that we have collected to another organization, or directly to you, under certain conditions.
 
-If you would like to exercise any of these rights, please contact us at our email: assured4sr@gmail.com.
+If you would like to exercise any of these rights, please contact us at our email: info@training-assured.org.
 
 ## What are cookies?
 Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our websites, we may collect information from you automatically through cookies or similar technology. For further information, visit [All About Cookies](http://www.allaboutcookies.org).
@@ -78,7 +78,7 @@ The ASSURED website contains links to other websites (such as Twitter.com). Our 
 The ASSURED website keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 30 June 2022.
 
 ## How to contact us
-If you have any questions about the ASSURED website’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us at: assured4sr@gmail.com.
+If you have any questions about the ASSURED website’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us at: info@training-assured.org.
 
 ## How to contact the appropriate authority
 Should you wish to report a complaint or if you feel that your concern has not been addressed in a satisfactory manner, you may contact the Data Protection Officer of the LMU Munich. Contact details can be found here: [Herr Dr. jur. Rolf Gemmeke](https://www.lmu.de/de/die-lmu/struktur/organisation/beauftragte-personalrat-schwerbehindertenvertretung/datenschutzbeauftragte.html).
