@@ -42,5 +42,5 @@ Over time we hope to expand ASSURED to include modules for other stakeholders, b
 
 ## Want to get involved?
 
-If you’re interested in learning more about the project, keep an eye on the News & Events for upcoming presentations and announcements. If you’re interesting in working with us or contributing to the project, please get in touch via [assured4sr@gmail.com](assured4sr@gmail.com). We’d love to hear from you!
+If you’re interested in learning more about the project, keep an eye on the News & Events for upcoming presentations and announcements. If you’re interesting in working with us or contributing to the project, please get in touch via [info@training-assured.org](info@training-assured.org). We’d love to hear from you!
 
