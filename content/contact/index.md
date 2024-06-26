@@ -25,8 +25,8 @@ We're looking forward to hearing from you!
     phone="+49 89 2180-0"
     email="info@training-assured.org"
     address="
-      SODA
-      Geschwister-Scholl-Platz 1
+      SODA <br>
+      Geschwister-Scholl-Platz  <br>
       80539 München
     "
   )
