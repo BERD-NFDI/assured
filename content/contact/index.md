@@ -22,13 +22,12 @@ We're looking forward to hearing from you!
 {{
   contact(
     title="How to reach out"
-    phone="0621/181-2222"
-    email="assured4sr@gmail.com"
+    phone="+49 89 2180-0"
+    email="info@training-assured.org"
     address="
-      BERD@NFDI
-      Universität Mannheim
-      Schloss
-      68131 Mannheim
+      SODA
+      Geschwister-Scholl-Platz 1
+      80539 München
     "
   )
 }}
