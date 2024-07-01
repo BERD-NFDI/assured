@@ -21,13 +21,7 @@ We're looking forward to hearing from you!
 
 {{
   contact(
-    title="How to reach out"
-    phone="+49 89 2180-0"
+    title="Reach out to us via e-mail:"
     email="info@training-assured.org"
-    address="
-      SODA <br>
-      Geschwister-Scholl-Platz  <br>
-      80539 München
-    "
   )
 }}
