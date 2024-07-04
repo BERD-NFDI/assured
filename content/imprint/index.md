@@ -8,12 +8,13 @@ main_nav = false
 
 # Impressum
 
-This website is administered by the Chair for Statistics and Data Science in Social Sciences and the Humanities (SODA) headed by Prof. Dr. Frauke Kreuter at the Ludwig-Maximilians University of Munich.
+## Website Administration
+This website is administered by:
 
-SODA <br>
+Social Data Science and AI (SODA) Lab <br>
 Geschwister-Scholl-Platz 1 <br>
-80539 München<br>
-Phone: +49 89 2180- <br>
+80539 München <br>
+[info@assured-training.org](info@assured-training.org) <br>
 Internet: [https://www.stat.lmu.de/soda/en/index.html](https://www.stat.lmu.de/soda/en/index.html)
 
 LMU sales tax ID number pursuant to § 27 a Sales Tax Law: DE 811205325
@@ -22,8 +23,8 @@ LMU sales tax ID number pursuant to § 27 a Sales Tax Law: DE 811205325
 ## Responsible for content according to § 18 para. 2 MStV
 
 Ludwig-Maximilians-Universität München <br>
-Prof. Dr. Frauke Kreuter, Chair for Statistics and Data Science in Social Sciences and the Humanities (SODA) <br>
-Email: info@assured-training.org
+Prof. Dr. Frauke Kreuter, Social Data Science and AI (SODA) Lab <br>
+Email: [info@assured-training.org](info@assured-training.org)
 
 ## Authorised Oversight Agency
 
@@ -31,7 +32,7 @@ Bavarian State Ministry for Science and Art <br>
 Salvatorstraße 2 <br>
 80333 Munich <br>
 Germany <br>
-Internet: https://www.km.bayern.de/index_wm.html
+Internet: [https://www.km.bayern.de/index_wm.html](https://www.km.bayern.de/index_wm.html)
 
 
 # Statement of Release
