@@ -22,6 +22,6 @@ We're looking forward to hearing from you!
 {{
   contact(
     title="Reach out to us via e-mail:
-    "email="info@training-assured.org"
+    "email="info@assured-training.org"
   )
 }}
