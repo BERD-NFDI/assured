@@ -1,0 +1,29 @@
+[[person]]
+name = "Deborah Wiltshire"
+role = "Service Lead for the SDC"
+institution = "GESIS – Leibniz Institute for the Social Sciences"
+image = "photos/wiltshire.jpg"
+
+[[person]]
+name = "Simon Parker"
+role = "Data Protection Coordinator"
+institution = "German Human Genome-Phenome Archive"
+image = "photos/parker.jpg"
+
+[[person]]
+name = "Vanessa González Ribao"
+role = "Training Coordinator for Data Protection"
+institution = "German Human Genome-Phenome Archive"
+image = "photos/gonzález ribao.jpg"
+
+[[person]]
+name = "Markus Herklotz"
+role = "BERD Academy Coordinator"
+institution = "Social Data Science and AI Lab, Ludwig Maximilian University of Munich"
+image = "photos/herklotz.png"
+
+[[person]]
+name = "Wiebke Weber"
+role = "Scientific Manager"
+institution = "Social Data Science and AI Lab, Ludwig Maximilian University of Munich"
+image = "photos/weber.jpg"
