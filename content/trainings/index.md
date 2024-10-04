@@ -21,6 +21,7 @@ Our **Core Modules** cover the key knowledge that is indispensable to work with 
 2. utilising different data types such as genetic data, medical data, or qualitative data
 3. in a particular role such as a researcher, data access professional, or data producer. 
 
+![Training Audience Modules](Assured_modules-audiences.png) 
 
 All ASSURED modules are conveyed via short (about 10 minutes) and compact learning units. The programme also includes interactive activities and assessments to test understanding. This modular structure enables Research Data Centres and trainees to create individual learning pathways for their researchers and professional staff by combining the Core Modules with those Specialised Modules that best suit their requirements for accessing data or their professional development ambitions.
 
