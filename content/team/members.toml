@@ -19,11 +19,11 @@ image = "photos/gonzález ribao.jpg"
 [[person]]
 name = "Markus Herklotz"
 role = "BERD Academy Coordinator"
-institution = "Social Data Science and AI Lab, Ludwig Maximilian University of Munich"
+institution = "Social Data Science and AI Lab, LMU Munich"
 image = "photos/herklotz.png"
 
 [[person]]
 name = "Wiebke Weber"
 role = "Scientific Manager"
-institution = "Social Data Science and AI Lab, Ludwig Maximilian University of Munich"
+institution = "Social Data Science and AI Lab, LMU Munich"
 image = "photos/weber.jpg"
