@@ -23,8 +23,8 @@ sort_by = "weight"
       "Providing Access / Do you want to streamline the access to your sensitive data? Do you want to train and develop your team? Assured provides the training and authentication."
     ]
     images=[
-      "assets/safeDataCenter.svg",
-      "assets/safeResearcher.svg"
+      "assets/safeResearcher.svg",
+      "assets/safeDataCenter.svg"
     ]
   )
 }}

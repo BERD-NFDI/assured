@@ -12,24 +12,28 @@
         </svg>
       </button>
     </div>
-    <div class="hidden lg:flex lg:gap-x-12">
+    <ul role="list" class="hidden lg:flex lg:gap-x-12">
       {% set root = get_section(path="_index.md") %}
       {% if root.pages %}
         {%- for nav_page in root.pages -%}
           {#- Filter pages not meant for main nav -#}
           {%- if nav_page.extra.main_nav | default(value=true) != false -%}
+            <li>
             <a href="{{ nav_page.permalink | safe }}" class="text-sm font-semibold leading-6 text-gray-900{% if current_url == nav_page.permalink %} active{% endif %}">
               {{ nav_page.title }}
             </a>
+            </li>
           {%- endif -%}
         {%- endfor -%}
       {% endif %}
       {% if config.extra.header_cta -%}
+      <li>
         <a href="{{ config.base_url ~ config.extra.header_cta_href }}" class="text-sm font-semibold leading-6 text-gray-900">
           {{ config.extra.header_cta }}
         </a>
+      </li>
       {%- endif %}
-    </div>
+      </ul>
   </nav>
   <!-- Mobile menu, show/hide based on menu open state. -->
   <div popover id="global-menu" class="bg-transparent" role="dialog" aria-modal="true">
