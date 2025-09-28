@@ -1,6 +1,6 @@
 {% set data = load_data(path=data_path) %}
 <div class="flex flex-wrap {% if color %}text-{{color}}{% endif %} {% if bg %}bg-{{bg}}{% endif %}">
-    {% if title %}
+    {% if title %} 
     <h3 class="uppercase text-sm block font-bold mb-12 w-full">{{ title }}</h3>
     {% endif %}
     {% if body %}
