@@ -1,0 +1,62 @@
+{% set data = load_data(path=data_path) %}
+<div class="flex flex-wrap {% if color %}text-{{color}}{% endif %} {% if bg %}bg-{{bg}}{% endif %}">
+    {% if title %}
+    <h3 class="uppercase text-sm block font-bold mb-12 w-full">{{title}}</h3>
+    {% endif %}
+    {% if body %}
+    <div class='text-xl leading-tight w-full lg:w-1/2 pl-0 lg:pr-8 '>
+        {{ body | markdown | safe }}
+    </div>
+    {% endif %}
+    
+            <div class="container-escape {% if body %}w-full lg:w-1/2 pl-0 lg:pl-8{% else %}max-w-[960px]{% endif %}">
+                {% for accordion in data.accordion %}
+                <div class="accordion text-left px-1 my-2  relative">
+
+                    <div class="visible-text font-semibold"> 
+                        {{ accordion.visible }}
+                    </div>
+                    <div class="hidden-text  transistion-all h-0 duration-500 ease-linear overflow-hidden mt-4 mb-8 ">
+                        <div class="inner-text">
+                            {{ accordion.hidden | linebreaksbr | safe }}
+                        </div>
+                    </div>
+
+                </div>
+                {% endfor %}
+            </div>
+            </div>
+            <style>
+                .accordion:before {
+                    content: "+";
+                    position: absolute;
+                    font-weight: 600;
+                    font-size: 35px;
+                    top: -8px;
+                    right: 0;
+                    transition: all 0.8s ease;
+                    z-index: -1;
+                }
+                .accordion.open:before {
+                    transform: rotateZ(135deg);
+                }
+            </style>
+            <script>
+
+                const collection = document.getElementsByClassName("visible-text");
+                for (let i = 0; i < collection.length; i++) {
+                    collection[i].onclick = toggleAccordion;
+                    //collection[i].onclick=function(){console.log("hei");};
+                }
+                function toggleAccordion() {
+                 console.log("Hello");
+                    acc=this.parentElement;
+                            acc.classList.toggle("open");
+                    if (acc.classList.contains('open')) {
+                    
+                        acc.getElementsByClassName("hidden-text")[0].style.height = acc.getElementsByClassName("inner-text")[0].offsetHeight + "px";
+                    } else {
+                        acc.getElementsByClassName("hidden-text")[0].style.height = 0;
+                    }
+                }
+            </script>
