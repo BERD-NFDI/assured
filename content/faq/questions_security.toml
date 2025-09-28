@@ -1,0 +1,17 @@
+[[accordion]]
+visible = "How does ASSURED protect my personal information?"
+hidden = """Website: see https://assured-training.org/privacy/
+
+Email: Messages to info@assured-training.org are stored within Roundcube Webmail (https://roundcube.net/about/) under Article 6 (1) f) GDPR.
+
+E-learning platform: Hosted by eLeDia (Germany). ASSURED uses Moodle’s privacy features (https://moodle.com/privacy-notice/), secure passwords, multi-factor authentication, and role-based access control. Administrators monitor activity to detect and prevent breaches.
+
+Learn more here: [link to ASSURED’s data protection notice]."""
+
+[[accordion]]
+visible = "What is ASSURED’s privacy policy?"
+hidden = "Learn how ASSURED safeguards your personal data here: [link to ASSURED’s data protection notice]. Moodle privacy notice: https://moodle.com/de/datenschutzerklarung/"
+
+[[accordion]]
+visible = "Is my learning progress and data kept private?"
+hidden = "ASSURED uses an Authorisation and Authentication Infrastructure (AAI) to control and regulate data access and sharing. See [link to ASSURED’s data protection notice] for details."
