@@ -106,7 +106,7 @@ Learn more here: <a href="https://assured-training.org/privacy/">https://assured
 
 [[accordion]]
 visible = "What is ASSURED’s privacy policy?"
-hidden = """Learn how ASSURED safeguards your personal data here: [link to ASSURED’s data protection notice]. Moodle privacy notice: <a href="https://moodle.com/de/datenschutzerklarung/">https://moodle.com/de/datenschutzerklarung/</a>"""
+hidden = """Learn how ASSURED safeguards your personal data here: <a href="https://assured-training.org/privacy/">https://assured-training.org/privacy/</a>. Moodle privacy notice: <a href="https://moodle.com/de/datenschutzerklarung/">https://moodle.com/de/datenschutzerklarung/</a>"""
 
 [[accordion]]
 visible = "Is my learning progress and data kept private?"
