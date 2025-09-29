@@ -1,7 +1,7 @@
 +++
 title = "News"
 sort_by = "date"
-weight = 5
+weight = 6
 [extra]
 main_nav = true
 bloglist = true
