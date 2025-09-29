@@ -29,6 +29,12 @@ sort_by = "weight"
   )
 }}
 
+{{latest_news(
+    title="Latest News",
+    data_path="news/news.toml",
+    more_news="news/index.md"
+)}}
+
 {{
   gallery_institution(
     title="Partners"
