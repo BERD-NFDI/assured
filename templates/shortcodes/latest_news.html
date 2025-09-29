@@ -1,0 +1,142 @@
+<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+<script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+{% set id = now() | date(format="%6f") %}
+
+<div class="w-full" style="background-color: #e19ec7;">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20 py-12">
+        {% if title %}
+        <h3 class="uppercase text-sm block font-bold mb-8">{{title}}</h3>
+        {% endif %}
+
+        <div class="embla overflow-hidden" id="carousel-{{id}}">
+            <div class="embla__container flex">
+                {% set data = load_data(path=data_path) %}
+                {%- for news in data.news %}
+                {% if news.pin and news.pin == "true" %}
+                <div class="embla__slide min-w-0 flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_50%] xl:flex-[0_0_33.333%] 2xl:flex-[0_0_33.333%] px-4">
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 p-6 lg:p-8 h-full flex flex-col" style="min-height: 320px;">
+                        <div class="flex-grow">
+                            <!-- Date and Author -->
+                            <div class="text-sm text-gray-600 mb-4 flex items-center justify-between">
+                                <div>
+                                    {% if news.by %}
+                                    <span class="font-semibold text-black">{{news.by}}</span> • 
+                                    {% endif %}
+                                    <span>{{news.date}}</span>
+                                </div>
+                                {% if news.linkedin %}
+                                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                                {% endif %}
+                            </div>
+                            
+                            <!-- Title -->
+                            {% if news.title %}
+                            <h4 class="text-base font-bold mb-4 line-clamp-2 text-gray-900">{{news.title}}</h4>
+                            {% endif %}
+                            
+                            <!-- Content -->
+                            <div class="text-base text-gray-700 line-clamp-3 lg:line-clamp-4 leading-relaxed">
+                                {{news.anews | markdown | safe }}
+                            </div>
+                        </div>
+                        
+                        <!-- Footer -->
+                        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                            <div class="text-center flex-1 text-xs text-gray-400">
+                                • • •
+                            </div>
+                            {% if news.originalurl %}
+                            <a href="{{news.originalurl}}" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 font-medium">
+                                Read more →
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if more_news %}
+        <div class="flex items-center justify-center gap-8 mt-10">
+            <button class="embla__button--prev rounded-full w-12 h-12 flex items-center justify-center bg-black/80 hover:bg-black text-white transition-all duration-300 hover:scale-110">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M14.5 17L9.5 12L14.5 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <a href="/news/" class="uppercase text-sm font-bold hover:underline px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">
+                View all news
+            </a>
+
+            <button class="embla__button--next rounded-full w-12 h-12 flex items-center justify-center bg-black/80 hover:bg-black text-white transition-all duration-300 hover:scale-110">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M9.5 17L14.5 12L9.5 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+    .line-clamp-2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .line-clamp-3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .line-clamp-4 {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    /* Larger screens get bigger cards */
+    @media (min-width: 1536px) {
+        .embla__slide {
+            max-width: 500px;
+        }
+    }
+</style>
+
+<script type="text/javascript">
+const emblaNode_{{id}} = document.querySelector('#carousel-{{id}}');
+const prevBtn_{{id}} = document.querySelector('.embla__button--prev');
+const nextBtn_{{id}} = document.querySelector('.embla__button--next');
+const options_{{id}} = { 
+    loop: true, 
+    slidesToScroll: 1,
+    align: 'center',
+    containScroll: 'trimSnaps'
+};
+const plugins_{{id}} = [
+    EmblaCarouselAutoplay({ 
+        delay: 5000, 
+        stopOnInteraction: false,
+        stopOnMouseEnter: true 
+    })
+];
+const emblaApi_{{id}} = EmblaCarousel(emblaNode_{{id}}, options_{{id}}, plugins_{{id}});
+
+if (prevBtn_{{id}}) {
+    prevBtn_{{id}}.addEventListener('click', () => {
+        emblaApi_{{id}}.scrollPrev();
+    });
+}
+if (nextBtn_{{id}}) {
+    nextBtn_{{id}}.addEventListener('click', () => {
+        emblaApi_{{id}}.scrollNext();
+    });
+}
+</script>
