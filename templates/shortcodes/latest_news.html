@@ -1,142 +1,127 @@
-<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-<script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
-{% set id = now() | date(format="%6f") %}
+{% set data = load_data(path=data_path) %}
+{% set items = data.news %}
 
-<div class="w-full" style="background-color: #e19ec7;">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-20 py-12">
-        {% if title %}
-        <h3 class="uppercase text-sm block font-bold mb-8">{{title}}</h3>
-        {% endif %}
+<section class="w-full overflow-x-hidden py-12" style="background:#e19ec7;">
+  <div class="mx-auto max-w-[100vw] w-full px-4">
 
-        <div class="embla overflow-hidden" id="carousel-{{id}}">
-            <div class="embla__container flex">
-                {% set data = load_data(path=data_path) %}
-                {%- for news in data.news %}
-                {% if news.pin and news.pin == "true" %}
-                <div class="embla__slide min-w-0 flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_50%] xl:flex-[0_0_33.333%] 2xl:flex-[0_0_33.333%] px-4">
-                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 p-6 lg:p-8 h-full flex flex-col" style="min-height: 320px;">
-                        <div class="flex-grow">
-                            <!-- Date and Author -->
-                            <div class="text-sm text-gray-600 mb-4 flex items-center justify-between">
-                                <div>
-                                    {% if news.by %}
-                                    <span class="font-semibold text-black">{{news.by}}</span> • 
-                                    {% endif %}
-                                    <span>{{news.date}}</span>
-                                </div>
-                                {% if news.linkedin %}
-                                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                                </svg>
-                                {% endif %}
-                            </div>
-                            
-                            <!-- Title -->
-                            {% if news.title %}
-                            <h4 class="text-base font-bold mb-4 line-clamp-2 text-gray-900">{{news.title}}</h4>
-                            {% endif %}
-                            
-                            <!-- Content -->
-                            <div class="text-base text-gray-700 line-clamp-3 lg:line-clamp-4 leading-relaxed">
-                                {{news.anews | markdown | safe }}
-                            </div>
-                        </div>
-                        
-                        <!-- Footer -->
-                        <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
-                            <div class="text-center flex-1 text-xs text-gray-400">
-                                • • •
-                            </div>
-                            {% if news.originalurl %}
-                            <a href="{{news.originalurl}}" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 font-medium">
-                                Read more →
-                            </a>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
+    <h2 class="uppercase text-sm font-bold mb-6">
+      {{ title | default(value="Latest News") }}
+    </h2>
+
+    <div class="w-screen max-w-[100vw] overflow-x-hidden">
+
+      <div id="news-scroller"
+           class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
+                  w-screen max-w-[100vw] px-1">
+
+        {% for news in items %}
+        {% if news.pin == "true" %}
+
+        {% set clean = news.anews | striptags | trim %}
+
+        <article class="
+          snap-start flex-shrink-0
+          bg-white rounded-lg shadow
+          p-6
+
+          /* MOBILE = 1 card */
+          w-[85%]
+
+          /* TABLET = 2 cards */
+          md:w-[48%]
+
+          /* DESKTOP = 3 cards */
+          lg:w-[31%]
+
+          overflow-hidden
+        ">
+
+          <div class="flex flex-col h-full">
+
+            <!-- META -->
+            <p class="text-sm text-gray-600 mb-2">
+              {% if news.by %}
+              <span class="font-semibold">{{ news.by }}</span> •
+              {% endif %}
+              {{ news.date }}
+            </p>
+
+            <!-- TITLE -->
+            <h3 class="text-lg font-bold mb-3 line-clamp-2">
+              {{ news.title }}
+            </h3>
+
+            <!-- TRUNCATED TEXT BLOCK -->
+            {% if clean | length > 220 %}
+              <div class="text-gray-700 text-sm leading-relaxed mb-4 h-[110px] flex flex-col justify-between overflow-hidden">
+                <span>{{ clean | truncate(length=220) | trim }}…</span>
+                <span class="text-center text-gray-400 text-xs">• • •</span>
+              </div>
+            {% else %}
+              <div class="text-gray-700 text-sm leading-relaxed mb-4 h-[110px] flex items-start overflow-hidden">
+                <span>{{ clean }}</span>
+              </div>
+            {% endif %}
+
+            <!-- LINK -->
+            <div class="mt-auto pt-3 border-t">
+              <a class="text-blue-600 hover:underline text-sm"
+                 href="{{ news.originalurl | default(value='') }}" target="_blank">
+                Read more →
+              </a>
             </div>
-        </div>
 
-        {% if more_news %}
-        <div class="flex items-center justify-center gap-8 mt-10">
-            <button class="embla__button--prev rounded-full w-12 h-12 flex items-center justify-center bg-black/80 hover:bg-black text-white transition-all duration-300 hover:scale-110">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M14.5 17L9.5 12L14.5 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </button>
+          </div>
+        </article>
 
-            <a href="/news/" class="uppercase text-sm font-bold hover:underline px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">
-                View all news
-            </a>
-
-            <button class="embla__button--next rounded-full w-12 h-12 flex items-center justify-center bg-black/80 hover:bg-black text-white transition-all duration-300 hover:scale-110">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M9.5 17L14.5 12L9.5 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </button>
-        </div>
         {% endif %}
+        {% endfor %}
+
+      </div>
     </div>
-</div>
+
+    <!-- BUTTONS -->
+    <div class="flex justify-center items-center gap-6 mt-6">
+      <button onclick="scrollNews(-1)"
+              class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center">
+        ←
+      </button>
+
+      <a href="/news/"
+         class="bg-black text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-gray-800">
+        VIEW ALL NEWS
+      </a>
+
+      <button onclick="scrollNews(1)"
+              class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center">
+        →
+      </button>
+    </div>
+
+  </div>
+</section>
 
 <style>
-    .line-clamp-2 {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-    .line-clamp-3 {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-    .line-clamp-4 {
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-    
-    /* Larger screens get bigger cards */
-    @media (min-width: 1536px) {
-        .embla__slide {
-            max-width: 500px;
-        }
-    }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.line-clamp-2 {
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
 </style>
 
-<script type="text/javascript">
-const emblaNode_{{id}} = document.querySelector('#carousel-{{id}}');
-const prevBtn_{{id}} = document.querySelector('.embla__button--prev');
-const nextBtn_{{id}} = document.querySelector('.embla__button--next');
-const options_{{id}} = { 
-    loop: true, 
-    slidesToScroll: 1,
-    align: 'center',
-    containScroll: 'trimSnaps'
-};
-const plugins_{{id}} = [
-    EmblaCarouselAutoplay({ 
-        delay: 5000, 
-        stopOnInteraction: false,
-        stopOnMouseEnter: true 
-    })
-];
-const emblaApi_{{id}} = EmblaCarousel(emblaNode_{{id}}, options_{{id}}, plugins_{{id}});
+<script>
+function scrollNews(direction) {
+  const scroller = document.getElementById("news-scroller");
+  const card = scroller.querySelector("article");
+  if (!card) return;
 
-if (prevBtn_{{id}}) {
-    prevBtn_{{id}}.addEventListener('click', () => {
-        emblaApi_{{id}}.scrollPrev();
-    });
-}
-if (nextBtn_{{id}}) {
-    nextBtn_{{id}}.addEventListener('click', () => {
-        emblaApi_{{id}}.scrollNext();
-    });
+  const gap = 24; // Tailwind gap-6 (1.5rem)
+  const cardWidth = card.getBoundingClientRect().width + gap;
+
+  scroller.scrollBy({ left: direction * cardWidth, behavior: "smooth" });
 }
 </script>
