@@ -1,33 +1,41 @@
 <div class="flex flex-wrap {% if color %}text-{{color}}{% endif %} {% if bg %}bg-{{bg}}{% endif %} relative">
     {% if title %}
-    <h3 class="uppercase text-sm block font-bold mb-12 w-full">{{ title }}</h3>
+    <h3 class="uppercase text-sm block font-bold mb-12 w-full">{{title}}</h3>
     {% endif %}
-    <div class="text-base leading-tight w-full max-w-[960px] mx-auto pl-0 lg:pr-8 mb-10 lg:mb-0">
-        {# Prepend 'content/' so that files stored under content/... can be loaded directly #}
-        {% set data = load_data(path="content/" ~ data_path) %}
-        {# If your TOML file contains [[news]] tables keep 'data.news', otherwise use 'data' directly #}
+
+    <div class="text-base leading-tight w-full max-w-[960px]  mx-auto pl-0 lg:pr-8  mb-10 lg:mb-0">
+        {% set data = load_data(path=data_path) %}
         {%- for news in data.news %}
-        {% if not news.skip_feed %}
-        <div class="p-8 border rounded-md mb-8 {% if news_bg %}bg-{{ news_bg }}{% else %}bg-white{% endif %}">
-            <div class="text-sm mb-8 inline-block flex justify-between w-full">
+        {% if news.skip_feed %}
+        {% else %}
+        <div class="p-8 border rounded-md mb-8 {% if news_bg %}bg-{{news_bg}}{% else %}bg-white{% endif %}">
+            <!-- Header -->
+            <div class="text-sm mb-6 flex justify-between items-center">
                 <div>
-                    {% if news.by %}
-                    <span class="font-bold mb-2 inline-block mr-2">{{ news.by }}</span>
-                    {% endif %}
-                    {{ news.date }}
+                    {% if news.by %}<span class="font-bold mr-2">{{news.by}}</span>{% endif %}
+                    {% if news.date %}<span>{{news.date}}</span>{% endif %}
                 </div>
-                {% if news.originalurl %}
-                <div>
-                    <a class="text-right" href="{{ news.originalurl }}" target="_blank">View original post</a>
-                </div>
+                {% if news.source %}
+                <div class="text-gray-500 italic text-xs">Source: {{news.source}}</div>
                 {% endif %}
             </div>
+
+            <!-- Title -->
             {% if news.title %}
-            <div class="font-semibold mb-8">{{ news.title }}</div>
+            <div class="text-lg font-semibold mb-4">{{news.title}}</div>
             {% endif %}
-            <div class="text-base leading-tight">
-                {{ news.anews | markdown | safe }}
+
+            <!-- Content -->
+            <div class="text-base leading-relaxed text-gray-800">
+                {{news.anews | markdown | safe }}
             </div>
+
+            <!-- Footer -->
+            {% if news.originalurl %}
+            <div class="mt-4 text-sm">
+                <a href="{{news.originalurl}}" target="_blank" class="text-blue-600 hover:underline">View original post →</a>
+            </div>
+            {% endif %}
         </div>
         {% endif %}
         {% endfor %}
