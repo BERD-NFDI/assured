@@ -24,7 +24,7 @@ ASSURED aims to provide training for the safe and ethical use of sensitive, pote
   )
 }}
 
-## How did Assured come together?
+## How did ASSURED come together?
 
 The project started in May 2022 following a meeting of Trusted Research Environments from Germany and the UK. The meeting aimed to address one of the common challenges we face - that researchers applying to use the data often have little training and knowledge of how to work with these data safely. In the UK, dedicated training exists for researchers which has had a positive impact. **Here at ASSURED we want to bring this training to the German research community (and beyond!).**
 
