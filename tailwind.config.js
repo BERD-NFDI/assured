@@ -14,7 +14,7 @@ module.exports = {
         sans: ['"Krub"'],
       },
       colors: {
-        accent: '#459f9d',
+        accent: '#207c7e',
       },
     },
   },

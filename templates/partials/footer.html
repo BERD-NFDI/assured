@@ -7,7 +7,7 @@
         {% if config.extra.site_tagline -%}
           <p class="text-sm leading-6">{{ config.extra.site_tagline | safe }}</p>
         {%- endif %}
-        <div class="flex space-x-2 text-white/80">
+        <div class="flex space-x-2 text-white">
           <a href="mailto:info@assured-training.org">
             <span class="sr-only">Email</span>
             <i class="fa-solid fa-envelope fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
@@ -51,7 +51,7 @@
             </h3>
             <ul role="list" class="mt-6 space-y-4">
               <li class="flex flex-row space-x-2">
-                <i class="fa-solid fa-envelope fa-fw pt-1"></i>
+                <i class="fa-solid fa-envelope fa-fw pt-1 pt-1 transition-transform duration-200 hover:scale-125"></i>
                 <a href="mailto:info@assured-training.org" class="text-sm">
                   info@assured-training.org
                 </a>
@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="mt-16 border-t border-white/50 pt-8 sm:mt-20 lg:mt-24">
-      <p class="text-xs leading-5 text-white/70">&copy; {{ config.extra.copyright | safe }}</p>
+      <p class="text-xs leading-5 text-white">&copy; {{ config.extra.copyright | safe }}</p>
     </div>
   </div>
 </footer>

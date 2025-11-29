@@ -20,7 +20,7 @@ site_logo = "assets/logo.svg"
 site_logo_alt = "Assured logo"
 site_logo_sr = "Assured"
 site_tagline = "Safe research by safe people"
-copyright = "2024&ndash; Assured collaboration. All rights reserved."
+copyright = "2025 &ndash; Assured collaboration. All rights reserved."
 # Additional call to action in site navigation
 #header_cta = "Contact"
 #header_cta_href = "contact"
