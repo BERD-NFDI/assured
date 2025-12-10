@@ -1,4 +1,36 @@
 [[news]]
+title = "🔒 Mastering Data Privacy: Join the ASSURED Workshop at IDCC 2026"
+anews = '''
+
+Registration is now OPEN for our essential workshop at the International Data Curation Conference (IDCC) 2026!
+The ASSURED Project is developing an accreditation scheme for handling sensitive research data. This workshop is your opportunity to gain critical expertise.
+
+What You Will Learn:
+• Safe Outputs: Explore the issues emerging from sensitive data results and learn the principles for producing non-disclosive, safe outputs.
+• Key Techniques: Focus on methods like Statistical Disclosure Control (SDC) to minimise harm and protect privacy.
+• Interactive Training: This is a highly interactive-focused session, encouraging rich discussion among researchers and data professionals.
+
+Who Should Attend?
+This training is important for:
+• Researchers working with sensitive data.
+• Data Curators and professionals involved in data access.
+• Anyone responsible for ethical data release.
+
+Elevate your professional standards. Secure your spot and become more confident in working with sensitive data.
+
+👉 Register Today for the Workshop at IDCC 2026: https://t1p.de/8ltfu
+
+
+
+'''
+date = " "
+by = "Assured Training"
+pin = "true"
+originalurl = "https://www.linkedin.com/posts/assured-training_datagovernance-openscience-researchjobs-activity-7386340308332171266-quuP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADxrZGwB5ESC6hEubnIuDfWq1FtzkujA134"
+source = "linkedin"
+
+
+[[news]]
 title = "We're hiring a Research Associate!🚀"
 anews = '''
 Learn more and apply here: https://lnkd.in/ejpuSYnv
