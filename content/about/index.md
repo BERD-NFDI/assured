@@ -6,15 +6,10 @@ weight = 1
 header_image = "images/rcode.jpg"
 +++
 
-# Our aim: Safety
-
-{% page_lead() %}
-Training the research community in the safe and ethical use of sensitive research data.
-{% end %}
-
 ## What is our vision?
 
-ASSURED aims to provide training for the safe and ethical use of sensitive, potentially disclosive data for the research community. Through this training, we want to help prepare researchers to work with these data and also help those who work in Trusted Research Environments to gain recognition for their expertise.
+ASSURED trains and certifies researchers as well as users and staff of Research Data Centers (RDC) by providing training for the safe, legal, and ethical use of sensitive, potentially disclosive data. Through this training, ASSURED promotes FAIR practices for safe data use and sharing, supports improving security models, builds trust, and fosters career development within the research data sector.
+
 
 {{
   image_floating(
@@ -42,5 +37,5 @@ Over time we hope to expand ASSURED to include modules for other stakeholders, b
 
 ## Want to get involved?
 
-If you’re interested in learning more about the project, keep an eye on the News & Events for upcoming presentations and announcements. If you’re interesting in working with us or contributing to the project, please get in touch via [info@assured-training.org](mailto:info@assured-training.org). We’d love to hear from you!
+If you’re interested in learning more about the project, keep an eye on the [News](https://assured-training.org/news/) for upcoming presentations and announcements. If you’re interesting in working with us or contributing to the project, please get in touch via [info@assured-training.org](mailto:info@assured-training.org). We’d love to hear from you!
 
