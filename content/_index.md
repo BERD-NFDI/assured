@@ -17,11 +17,11 @@ sort_by = "weight"
 }}
 {{
   landing_blocks(
-    header="ASSURED trains and certifies researchers as well as users and staff of Research Data Centers (RDC) by providing training for the safe and ethical use of sensitive, potentially disclosive data.<br>Through this training, ASSURED promotes FAIR practices for safe data use and sharing, supports improving security models, builds trust, and fosters career development within the research data sector."
+    header="ASSURED ensures the safe, legal, and ethical use of sensitive data through targeted training and certification."
     boxes=[
-      "Accessing / For researchers:<br>Train to use data safely and ethically.
+      "Accessing / For researchers: Train to use data safely and ethically.
 .",
-      "Providing Access / For Research Data Centers:<br>Train your users and develop your team. 
+      "Providing Access / For Research Data Centers: Train your users and develop your team. 
 "
     ]
     images=[
