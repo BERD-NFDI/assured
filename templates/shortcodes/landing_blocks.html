@@ -20,7 +20,7 @@
         #}
 
         <div class="text-lg font-semibold leading-tight mb-4">
-          {{ data.1 | trim() }}
+          {{ data.1 | trim() | safe }}
         </div>
       </div>
     {% endfor %}
