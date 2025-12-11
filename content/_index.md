@@ -19,7 +19,7 @@ sort_by = "weight"
   landing_blocks(
     header="ASSURED ensures the safe, legal, and ethical use of sensitive data through targeted training and certification."
     boxes=[
-      "Accessing / For researchers:<br>Train to use data safely, legally, and ethically.
+      "Accessing / For researchers: Train to use data safely, legally, and ethically.
 ",
       "Providing Access / For Research Data Centers: Train your users and develop your team. 
 "
