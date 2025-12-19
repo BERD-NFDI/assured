@@ -17,9 +17,11 @@ Our **Core Modules** cover the key knowledge that is indispensable to work with 
 
 **Specialised Modules** - covering services, data or roles - are designed to provide the specific skills needed for distinct applications.  Examples include:
 
-**Service Module**: Conducting research within a particular secure environment, such as the GESIS Safe Haven.
-**Data Module**: Utilising different data types, such as genetic data, medical data, or qualitative data.
-**Role Module**: Developing expertise for a specific professional function, such as a researcher, data access professional, policy maker or data producer.
+• **Service Module**: Conducting research within a particular secure environment, such as the GESIS Safe Haven.
+
+• **Data Module**: Utilising different data types, such as genetic data, medical data, or qualitative data.
+
+• **Role Module**: Developing expertise for a specific professional function, such as a researcher, data access professional, policy maker or data producer.
 
 See the list of available modules on our e-learning platform: [ https://platform.assured-training.org/](https://platform.assured-training.org/)
 
