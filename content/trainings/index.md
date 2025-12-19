@@ -10,7 +10,7 @@ header_image = "images/rcodeangelhoriz.jpg"
 ASSURED training is based on a flexible, modular approach catering to the differing needs of those involved in the wide landscape of research data.
 {% end %}
 
-![ASSURED Overview](overview.png) 
+![ASSURED Overview](ASSURED-overview.png) 
 
 Our **Core Modules** cover the key knowledge that is indispensable to work with any sensitive data safely across research disciplines. These modules include topics such as data citation, lawful data sharing, understanding data access, and how to produce non-disclosive research outputs which are essential to achieve the Safe Use of research data in accordance with the Five Safes Framework.
 
