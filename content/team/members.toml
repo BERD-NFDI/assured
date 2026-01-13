@@ -11,6 +11,18 @@ institution = "German Human Genome-Phenome Archive"
 image = "photos/parker.jpg"
 
 [[person]]
+name = "Wiebke Weber"
+role = "Scientific Manager"
+institution = "Social Data Science and AI Lab, LMU Munich"
+image = "photos/weber.jpg"
+
+[[person]]
+name = "Frederic Gerdon"
+role = "Postdoctoral Researcher"
+institution = "GESIS – Leibniz Institute for the Social Sciences"
+image = "photos/Photo_Gerdon2.jpg"
+
+[[person]]
 name = "Vanessa González Ribao"
 role = "Training Coordinator for Data Protection"
 institution = "German Human Genome-Phenome Archive"
@@ -22,8 +34,3 @@ role = "BERD Academy Coordinator"
 institution = "Social Data Science and AI Lab, LMU Munich"
 image = "photos/herklotz.png"
 
-[[person]]
-name = "Wiebke Weber"
-role = "Scientific Manager"
-institution = "Social Data Science and AI Lab, LMU Munich"
-image = "photos/weber.jpg"
