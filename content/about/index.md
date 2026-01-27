@@ -6,9 +6,12 @@ weight = 1
 header_image = "images/rcode.jpg"
 +++
 
-## What is our vision?
+## What is ASSURED?
 
-ASSURED trains and certifies researchers as well as users and staff of Research Data Centers (RDC) by providing training for the safe, legal, and ethical use of sensitive, potentially disclosive data. Through this training, ASSURED promotes FAIR practices for safe data use and sharing, supports improving security models, builds trust, and fosters career development within the research data sector.
+ASSURED's vision is to make **Safe Research the standard in Germany (and beyond!)** by training the research community on the safe, legal, and ethical use of sensitive, potentially disclosive data: **Safe Research by Safe People.** 
+
+ASSURED contributes to bridge the gap between data utility and individual privacy by providing a framework to foster high-impact research and scientific discovery without compromising the rights, freedoms, or trust of individuals and organisations.
+
 
 
 {{
@@ -19,13 +22,15 @@ ASSURED trains and certifies researchers as well as users and staff of Research 
   )
 }}
 
+## What do we do?
+
+We are developing a full suite of [e-Learning](https://assured-training.org/trainings/) modules designed to prepare researchers to work with sensitive data and also help those who work in Research Data Centers to gain recognition for their expertise. Our online resources are available 24/7, allowing for flexible and self-paced learning journeys so that everyone can learn at their own speed and at times that suit them best. We make use of a variety of learning activities to create engaging learning experiences. Importantly, we aim to not only provide trainees information on how to handle data safely, but also to enhance their motivation to engage with data ethics and safety in the long run.
+
+The ASSURED certification serves as a record of individual knowledge and skills, and also as a gateway to access sensitive data. We have defined a core group of essential modules to be completed by all researchers and data professionals. We also provide additional optional modules that cover specific roles, data sets, and services. Our training approach is therefore flexible, ensuring that it remains relevant to those undertaking training, and at the same time scalable, enabling for a large number of people to be trained for a range of specific purposes.
+
 ## How did ASSURED come together?
 
-The project started in May 2022 following a meeting of Trusted Research Environments from Germany and the UK. The meeting aimed to address one of the common challenges we face - that researchers applying to use the data often have little training and knowledge of how to work with these data safely. In the UK, dedicated training exists for researchers which has had a positive impact. **Here at ASSURED we want to bring this training to the German research community (and beyond!).**
-
-Originally called the Safe Researcher Accreditation System (SaRAS), we are now developing the Accrediting Safe Research Environments (ASSURED) programme, a full suite of e-Learning modules designed to meet the needs of both researchers and TRE teams across different services and domains.
-
-Over time we hope to expand ASSURED to include modules for other stakeholders, but for now we look forward to sharing our progress over the coming months.
+The project started in May 2022 following a meeting of staff working in Trusted Research Environments from Germany and the UK. The meeting aimed to address one of the common challenges we face - that researchers applying to use sensitive data often have little training and knowledge of how to work with these data safely. In the UK, dedicated training and a standard accreditation scheme exist for researchers which has had a positive impact. In Germany, both a wide-recognised training and an accreditation are currently missing. **The ASSURED project was born out of a desire to develop a similar training and accreditation scheme but adapted to the needs of the German research community.**
 
 {{
   image_floating(
