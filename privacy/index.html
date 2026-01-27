@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <title>
+    Assured · 
+        Privacy
+      
+  </title>
+  <style>
+a:hover {
+  text-decoration: underline !important;
+}
+a {
+  text-decoration: none !important;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/krub/krub.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/fa/css/fontawesome.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/fa/css/solid.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/fa/css/brands.css">
+
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<style type="text/tailwindcss">
+  html {
+  height: 100%;
+}
+
+body {
+  /* Vertical alignment of <header>, <main> and <footer> */
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.prose {
+  @apply text-base;
+}
+
+.container {
+  @apply mx-auto w-full max-w-7xl px-6 py-10 lg:px-8;
+}
+.container-mini {
+  @apply mx-auto w-full max-w-3xl;
+
+  .container-escape {
+    @apply lg:-ml-40 lg:-mr-40;
+  }
+}
+
+</style>
+<script>
+  /** @type {import('tailwindcss').Config} */
+tailwind.config = {
+  theme: {
+    fontSize: {
+      sm: '1.1rem',
+      base: '1.25rem',
+      lg: '1.75rem',
+      xl: '2rem',
+      '2xl': '4rem',
+      '3xl': '6rem',
+    },
+    extend: {
+      fontFamily: {
+        sans: ['"Krub"'],
+      },
+      colors: {
+        accent: '#207c7e',
+      },
+    },
+  },
+}
+
+</script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+<body>
+  
+  <header class="bg-white" style="background-color: #E19EC7;">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <a href="https:&#x2F;&#x2F;assured-training.org&#x2F;" class="-m-1.5 p-1.5" aria-label="Homepage">
+      <span class="sr-only">Assured</span>
+      <img class="h-10 w-auto" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+    </a>
+    <div class="flex lg:hidden">
+      <button type="button" popovertarget="global-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+    <ul role="list" class="hidden lg:flex lg:gap-x-12">
+      
+      <li>
+            <a href="https://assured-training.org/about/" class="text-sm font-semibold leading-6 text-gray-900">
+              About
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/trainings/" class="text-sm font-semibold leading-6 text-gray-900">
+              Training
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/team/" class="text-sm font-semibold leading-6 text-gray-900">
+              Team
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/faq/" class="text-sm font-semibold leading-6 text-gray-900">
+              FAQ
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/news/" class="text-sm font-semibold leading-6 text-gray-900">
+              News
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/contact/" class="text-sm font-semibold leading-6 text-gray-900">
+              Contact
+            </a>
+            </li>
+      
+      </ul>
+  </nav>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div popover id="global-menu" class="bg-transparent" role="dialog" aria-modal="true">
+    <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div class="flex items-center justify-between">
+        <a href="https:&#x2F;&#x2F;assured-training.org&#x2F;" class="-m-1.5 p-1.5">
+          <span class="sr-only">Assured</span>
+          <img class="h-8 w-auto" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+        </a>
+        <button type="button" popovertarget="global-menu" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">
+            
+            
+              <a href="https://assured-training.org/about/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    About
+                  </a><a href="https://assured-training.org/trainings/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Training
+                  </a><a href="https://assured-training.org/team/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Team
+                  </a><a href="https://assured-training.org/faq/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    FAQ
+                  </a><a href="https://assured-training.org/news/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    News
+                  </a><a href="https://assured-training.org/contact/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Contact
+                  </a>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="my-4 lg:my-8">
+    
+    <main class="container-mini p-8 prose">
+      
+  
+    <h1 id="privacy">Privacy</h1>
+<h2 id="website-administration">Website Administration</h2>
+<p>This website is administered by:</p>
+<p>Social Data Science and AI (SODA) Lab <br>
+Geschwister-Scholl-Platz 1 <br>
+80539 München <br>
+info@assured-training.org <br>
+Internet: <a href="https://www.stat.lmu.de/soda/en/index.html">https://www.stat.lmu.de/soda/en/index.html</a></p>
+<h2 id="github-pages">Github Pages</h2>
+<p>This Website is hosted as a GitHub Pages website. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection">According to GitHub</a>: “When a GitHub Pages site is visited, the visitor's IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub's security practices, see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.” <br>
+We (SODA) do not track any user information ourselves and do not have access to such data.</p>
+<h2 id="cookie-usage">Cookie Usage</h2>
+<p>This website does <strong>not</strong> use cookies.</p>
+<h2 id="linked-services">Linked Services</h2>
+<p>This website contains links to other services, the contents of which we have no influence over. Therefore, we cannot assume any responsibility for these external contents. The respective provider or operator of the linked sites is always responsible for their contents. If you follow these links, you should become aware of their terms of service. <br></p>
+<p>We link to:</p>
+<ul>
+<li><a href="https://www.youtube.com/">Youtube</a> for hosting our training videos.</li>
+</ul>
+
+  
+
+
+    </main>
+  </div>
+  <footer class="bg-accent text-white mt-4 py-16 lg:py-24" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only">Footer</h2>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="lg:grid lg:grid-cols-4 lg:gap-8">
+      <div class="lg:col-span-2 space-y-8">
+        <img class="h-7" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+        <p class="text-sm leading-6">Safe research by safe people</p>
+        <div class="flex space-x-2 text-white">
+          <a href="mailto:info@assured-training.org">
+            <span class="sr-only">Email</span>
+            <i class="fa-solid fa-envelope fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+          <a href="https://mastodon.social/@assured">
+            <span class="sr-only">Mastodon</span>
+            <i class="fa-brands fa-mastodon fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+          <a href="https://assured.bsky.social">
+            <span class="sr-only">Bluesky</span>
+            <i class="fa-brands fa-bluesky fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/assured-training/">
+            <span class="sr-only">LinkedIn</span>
+            <i class="fa-brands fa-linkedin fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+        </div>
+      </div>
+      <div class="md:mt-16 grid gap-y-48 lg:col-span-2 lg:mt-0">
+        <div class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-8">
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-sm font-semibold leading-6 text-white">
+              Quick links
+            </h3>
+            <ul role="list" class="mt-6 space-y-4">
+              
+              
+                
+                  <li>
+                    <a href="https://assured-training.org/about/" class="text-sm leading-6">
+                      About
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/trainings/" class="text-sm leading-6">
+                      Training
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/team/" class="text-sm leading-6">
+                      Team
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/faq/" class="text-sm leading-6">
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/news/" class="text-sm leading-6">
+                      News
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/contact/" class="text-sm leading-6">
+                      Contact
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/imprint/" class="text-sm leading-6">
+                      Imprint
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/privacy/" class="text-sm leading-6">
+                      Privacy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/accessibility/" class="text-sm leading-6">
+                      Accessibility
+                    </a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold leading-6 text-white">
+              Contact
+            </h3>
+            <ul role="list" class="mt-6 space-y-4">
+              <li class="flex flex-row space-x-2">
+                <i class="fa-solid fa-envelope fa-fw pt-1 pt-1 transition-transform duration-200 hover:scale-125"></i>
+                <a href="mailto:info@assured-training.org" class="text-sm">
+                  info@assured-training.org
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-16 border-t border-white/50 pt-8 sm:mt-20 lg:mt-24">
+      <p class="text-xs leading-5 text-white">&copy; 2025 &ndash; ASSURED collaboration. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

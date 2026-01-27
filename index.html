@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <title>
+    Assured · 
+        Safe research by safe people
+      
+  </title>
+  <style>
+a:hover {
+  text-decoration: underline !important;
+}
+a {
+  text-decoration: none !important;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/krub/krub.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/fa/css/fontawesome.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/fa/css/solid.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;assured-training.org&#x2F;assets/fonts/fa/css/brands.css">
+
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<style type="text/tailwindcss">
+  html {
+  height: 100%;
+}
+
+body {
+  /* Vertical alignment of <header>, <main> and <footer> */
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.prose {
+  @apply text-base;
+}
+
+.container {
+  @apply mx-auto w-full max-w-7xl px-6 py-10 lg:px-8;
+}
+.container-mini {
+  @apply mx-auto w-full max-w-3xl;
+
+  .container-escape {
+    @apply lg:-ml-40 lg:-mr-40;
+  }
+}
+
+</style>
+<script>
+  /** @type {import('tailwindcss').Config} */
+tailwind.config = {
+  theme: {
+    fontSize: {
+      sm: '1.1rem',
+      base: '1.25rem',
+      lg: '1.75rem',
+      xl: '2rem',
+      '2xl': '4rem',
+      '3xl': '6rem',
+    },
+    extend: {
+      fontFamily: {
+        sans: ['"Krub"'],
+      },
+      colors: {
+        accent: '#207c7e',
+      },
+    },
+  },
+}
+
+</script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+<body>
+  
+  <header class="bg-white" style="background-color: #E19EC7;">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <a href="https:&#x2F;&#x2F;assured-training.org&#x2F;" class="-m-1.5 p-1.5" aria-label="Homepage">
+      <span class="sr-only">Assured</span>
+      <img class="h-10 w-auto" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+    </a>
+    <div class="flex lg:hidden">
+      <button type="button" popovertarget="global-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+    <ul role="list" class="hidden lg:flex lg:gap-x-12">
+      
+      <li>
+            <a href="https://assured-training.org/about/" class="text-sm font-semibold leading-6 text-gray-900">
+              About
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/trainings/" class="text-sm font-semibold leading-6 text-gray-900">
+              Training
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/team/" class="text-sm font-semibold leading-6 text-gray-900">
+              Team
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/faq/" class="text-sm font-semibold leading-6 text-gray-900">
+              FAQ
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/news/" class="text-sm font-semibold leading-6 text-gray-900">
+              News
+            </a>
+            </li><li>
+            <a href="https://assured-training.org/contact/" class="text-sm font-semibold leading-6 text-gray-900">
+              Contact
+            </a>
+            </li>
+      
+      </ul>
+  </nav>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div popover id="global-menu" class="bg-transparent" role="dialog" aria-modal="true">
+    <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div class="flex items-center justify-between">
+        <a href="https:&#x2F;&#x2F;assured-training.org&#x2F;" class="-m-1.5 p-1.5">
+          <span class="sr-only">Assured</span>
+          <img class="h-8 w-auto" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+        </a>
+        <button type="button" popovertarget="global-menu" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">
+            
+            
+              <a href="https://assured-training.org/about/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    About
+                  </a><a href="https://assured-training.org/trainings/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Training
+                  </a><a href="https://assured-training.org/team/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Team
+                  </a><a href="https://assured-training.org/faq/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    FAQ
+                  </a><a href="https://assured-training.org/news/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    News
+                  </a><a href="https://assured-training.org/contact/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Contact
+                  </a>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main>
+    
+  
+    
+    <p><div
+  class="text-white bg-gray-900"
+  style="background:
+    radial-gradient(ellipse 100% 100% at top, transparent, rgb(17 24 39 / var(--tw-bg-opacity))),
+    center / cover no-repeat image-set(url('https:&#x2F;&#x2F;assured-training.org&#x2F;processed_images&#x2F;Simon-topdown.60ea2f634f7805ef.jpg') 1x),black;"
+>
+  <div class="container md:py-32 lg:grid lg:gap-8 lg:py-20 lg:pb-40 drop-shadow-lg">
+    <div class="text-center lg:text-center">
+
+      <div class="pt-8">
+        <img class="block opacity-100 max-w-lg mx-auto" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+      </div>
+      
+      <div class="text-white/70 text-lg font-bold py-6"></div>
+      <h1 class="text-2xl font-bold leading-tight text-balance">
+        Safe research<br>by safe people
+      </h1>
+      <div class="py-8">
+        <a href="https://assured-training.org/" class="text-white/70 text-lg font-bold">
+          
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-white bg-gray-900 lg:py-40 lg:pt-0">
+  <div class="container">
+    <div class="text-xl font-bold text-center text-balance mx-auto md:max-w-4xl">
+      ASSURED ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
+    </div>
+  </div>
+  <div class="container flex flex-row flex-wrap justify-center content-around">
+    
+      
+      <div class="w-full sm:w-1/2 md:w-2/5 text-black bg-white text-center shadow-lg rounded-lg m-4 p-12">
+        <img
+          class="mx-auto mb-4 lg:mb-8 opacity-90 w-24 h-24 lg:w-32 lg:h-32"
+          src="https://assured-training.org/assets/safeResearcher.svg"
+        >
+
+        
+
+        <div class="text-lg font-semibold leading-tight mb-4">
+          For researchers: <br>Get access to sensitive data by completing short, interactive modules on your own pace.
+        </div>
+      </div>
+    
+      
+      <div class="w-full sm:w-1/2 md:w-2/5 text-black bg-white text-center shadow-lg rounded-lg m-4 p-12">
+        <img
+          class="mx-auto mb-4 lg:mb-8 opacity-90 w-24 h-24 lg:w-32 lg:h-32"
+          src="https://assured-training.org/assets/safeDataCenter.svg"
+        >
+
+        
+
+        <div class="text-lg font-semibold leading-tight mb-4">
+          For Research Data Centers: Certify your users and develop your team in an efficient system.
+        </div>
+      </div>
+    
+  </div>
+</div>
+</p>
+
+
+
+<section class="w-full overflow-x-hidden py-12" style="background:#e19ec7;">
+  <div class="mx-auto max-w-[100vw] w-full px-4">
+
+    <h2 class="uppercase text-sm font-bold mb-6">
+      Latest News
+    </h2>
+
+    <div class="w-screen max-w-[100vw] overflow-x-hidden">
+
+      <div id="news-scroller"
+           class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
+                  w-screen max-w-[100vw] px-1">
+
+        
+        
+
+        
+
+        <article class="
+          snap-start flex-shrink-0
+          bg-white rounded-lg shadow
+          p-6
+
+          /* MOBILE = 1 card */
+          w-[85%]
+
+          /* TABLET = 2 cards */
+          md:w-[48%]
+
+          /* DESKTOP = 3 cards */
+          lg:w-[31%]
+
+          overflow-hidden
+        ">
+
+          <div class="flex flex-col h-full">
+
+            <!-- META -->
+            <p class="text-sm text-gray-600 mb-2">
+              
+              <span class="font-semibold">Assured Training</span> •
+              
+               
+            </p>
+
+            <!-- TITLE -->
+            <h3 class="text-lg font-bold mb-3 line-clamp-2">
+              🔒 Mastering Data Privacy: Join the ASSURED Workshop at IDCC 2026
+            </h3>
+
+            <!-- TRUNCATED TEXT BLOCK -->
+            
+              <div class="text-gray-700 text-sm leading-relaxed mb-4 h-[110px] flex flex-col justify-between overflow-hidden">
+                <span>Registration is now OPEN for our essential workshop at the International Data Curation Conference (IDCC) 2026!
+The ASSURED Project is developing an accreditation scheme for handling sensitive research data. This workshop……</span>
+                <span class="text-center text-gray-400 text-xs">• • •</span>
+              </div>
+            
+
+            <!-- LINK -->
+            <div class="mt-auto pt-3 border-t">
+              <a class="text-blue-600 hover:underline text-sm"
+                 href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;assured-training_datacuration-dataprivacy-idcc2026-activity-7404472272432074753-NmkC?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAosE2UB7Kj5Pe5Nb1W72SuczXcY5RyuE8M" target="_blank">
+                Read more →
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+        
+        
+        
+
+        
+
+        <article class="
+          snap-start flex-shrink-0
+          bg-white rounded-lg shadow
+          p-6
+
+          /* MOBILE = 1 card */
+          w-[85%]
+
+          /* TABLET = 2 cards */
+          md:w-[48%]
+
+          /* DESKTOP = 3 cards */
+          lg:w-[31%]
+
+          overflow-hidden
+        ">
+
+          <div class="flex flex-col h-full">
+
+            <!-- META -->
+            <p class="text-sm text-gray-600 mb-2">
+              
+              <span class="font-semibold">Assured Training</span> •
+              
+               
+            </p>
+
+            <!-- TITLE -->
+            <h3 class="text-lg font-bold mb-3 line-clamp-2">
+              We&#x27;re hiring a Research Associate!🚀
+            </h3>
+
+            <!-- TRUNCATED TEXT BLOCK -->
+            
+              <div class="text-gray-700 text-sm leading-relaxed mb-4 h-[110px] flex flex-col justify-between overflow-hidden">
+                <span>Learn more and apply here: https:&#x2F;&#x2F;lnkd.in&#x2F;ejpuSYnv
+
+Are you passionate about the intersection of FAIR data, open science, and researcher education? Join the Data Services for the Social Sciences department, where you&#x27;ll……</span>
+                <span class="text-center text-gray-400 text-xs">• • •</span>
+              </div>
+            
+
+            <!-- LINK -->
+            <div class="mt-auto pt-3 border-t">
+              <a class="text-blue-600 hover:underline text-sm"
+                 href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;assured-training_datagovernance-openscience-researchjobs-activity-7386340308332171266-quuP?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADxrZGwB5ESC6hEubnIuDfWq1FtzkujA134" target="_blank">
+                Read more →
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+        
+        
+        
+
+        
+
+        <article class="
+          snap-start flex-shrink-0
+          bg-white rounded-lg shadow
+          p-6
+
+          /* MOBILE = 1 card */
+          w-[85%]
+
+          /* TABLET = 2 cards */
+          md:w-[48%]
+
+          /* DESKTOP = 3 cards */
+          lg:w-[31%]
+
+          overflow-hidden
+        ">
+
+          <div class="flex flex-col h-full">
+
+            <!-- META -->
+            <p class="text-sm text-gray-600 mb-2">
+              
+              <span class="font-semibold">Assured Training</span> •
+              
+               
+            </p>
+
+            <!-- TITLE -->
+            <h3 class="text-lg font-bold mb-3 line-clamp-2">
+              We are recruiting!
+            </h3>
+
+            <!-- TRUNCATED TEXT BLOCK -->
+            
+              <div class="text-gray-700 text-sm leading-relaxed mb-4 h-[110px] flex flex-col justify-between overflow-hidden">
+                <span>We are currently looking for someone to join the ASSURED team for 3 years to develop and deliver training to researchers and data professionals working with sensitive data. We&#x27;re an international team, spread across mult……</span>
+                <span class="text-center text-gray-400 text-xs">• • •</span>
+              </div>
+            
+
+            <!-- LINK -->
+            <div class="mt-auto pt-3 border-t">
+              <a class="text-blue-600 hover:underline text-sm"
+                 href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;assured-training_research-associate-in-trusted-research-environments-activity-7386091411781238784-AKdM?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADxrZGwB5ESC6hEubnIuDfWq1FtzkujA134" target="_blank">
+                Read more →
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+        
+        
+        
+
+        
+
+        <article class="
+          snap-start flex-shrink-0
+          bg-white rounded-lg shadow
+          p-6
+
+          /* MOBILE = 1 card */
+          w-[85%]
+
+          /* TABLET = 2 cards */
+          md:w-[48%]
+
+          /* DESKTOP = 3 cards */
+          lg:w-[31%]
+
+          overflow-hidden
+        ">
+
+          <div class="flex flex-col h-full">
+
+            <!-- META -->
+            <p class="text-sm text-gray-600 mb-2">
+              
+              <span class="font-semibold">Assured Training</span> •
+              
+              2025-08-18
+            </p>
+
+            <!-- TITLE -->
+            <h3 class="text-lg font-bold mb-3 line-clamp-2">
+              The ASSURED team had an amazing time at the #EOSCSymposium2024 in Berlin! We spent three days discus
+            </h3>
+
+            <!-- TRUNCATED TEXT BLOCK -->
+            
+              <div class="text-gray-700 text-sm leading-relaxed mb-4 h-[110px] flex flex-col justify-between overflow-hidden">
+                <span>The ASSURED team had an amazing time at the #EOSCSymposium2024 in Berlin! We spent three days discussing FAIR sensitive data and training opportunities. Presenting our poster was a highlight. Let´s foster FAIRness and tr……</span>
+                <span class="text-center text-gray-400 text-xs">• • •</span>
+              </div>
+            
+
+            <!-- LINK -->
+            <div class="mt-auto pt-3 border-t">
+              <a class="text-blue-600 hover:underline text-sm"
+                 href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;feed&#x2F;update&#x2F;urn:li:activity:7255138012093628416" target="_blank">
+                Read more →
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+        
+        
+
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="flex justify-center items-center gap-6 mt-6">
+      <button onclick="scrollNews(-1)"
+              class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center">
+        ←
+      </button>
+
+      <a href="/news/"
+         class="bg-black text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-gray-800">
+        VIEW ALL NEWS
+      </a>
+
+      <button onclick="scrollNews(1)"
+              class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center">
+        →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.line-clamp-2 {
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+</style>
+
+<script>
+function scrollNews(direction) {
+  const scroller = document.getElementById("news-scroller");
+  const card = scroller.querySelector("article");
+  if (!card) return;
+
+  const gap = 24; // Tailwind gap-6 (1.5rem)
+  const cardWidth = card.getBoundingClientRect().width + gap;
+
+  scroller.scrollBy({ left: direction * cardWidth, behavior: "smooth" });
+}
+</script>
+
+
+<div class="container-mini prose prose-xl !pt-32">
+  <h2 class="text-center pb-0">Partners</h2>
+  <div class="container-escape my-8 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-x-8 md:gap-x-12">
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/gesis.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/konsort-swd.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/ghga.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/berd.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/lmu.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/bundesbank.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  
+    <div class="text-center p-4 flex justify-center">
+      
+  <img
+    
+      src="https://assured-training.org/team/logos/uwe.svg"
+    
+    class="block w-full"
+    
+  >
+
+    </div>
+  </div>
+</div>
+
+  
+
+
+  </main>
+  <footer class="bg-accent text-white mt-4 py-16 lg:py-24" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only">Footer</h2>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="lg:grid lg:grid-cols-4 lg:gap-8">
+      <div class="lg:col-span-2 space-y-8">
+        <img class="h-7" src="https://assured-training.org/assets/logo.svg" alt="Assured logo">
+        <p class="text-sm leading-6">Safe research by safe people</p>
+        <div class="flex space-x-2 text-white">
+          <a href="mailto:info@assured-training.org">
+            <span class="sr-only">Email</span>
+            <i class="fa-solid fa-envelope fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+          <a href="https://mastodon.social/@assured">
+            <span class="sr-only">Mastodon</span>
+            <i class="fa-brands fa-mastodon fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+          <a href="https://assured.bsky.social">
+            <span class="sr-only">Bluesky</span>
+            <i class="fa-brands fa-bluesky fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/assured-training/">
+            <span class="sr-only">LinkedIn</span>
+            <i class="fa-brands fa-linkedin fa-fw pt-1 transition-transform duration-200 hover:scale-125"></i>
+          </a>
+        </div>
+      </div>
+      <div class="md:mt-16 grid gap-y-48 lg:col-span-2 lg:mt-0">
+        <div class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-8">
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-sm font-semibold leading-6 text-white">
+              Quick links
+            </h3>
+            <ul role="list" class="mt-6 space-y-4">
+              
+              
+                
+                  <li>
+                    <a href="https://assured-training.org/about/" class="text-sm leading-6">
+                      About
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/trainings/" class="text-sm leading-6">
+                      Training
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/team/" class="text-sm leading-6">
+                      Team
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/faq/" class="text-sm leading-6">
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/news/" class="text-sm leading-6">
+                      News
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/contact/" class="text-sm leading-6">
+                      Contact
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/imprint/" class="text-sm leading-6">
+                      Imprint
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/privacy/" class="text-sm leading-6">
+                      Privacy
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://assured-training.org/accessibility/" class="text-sm leading-6">
+                      Accessibility
+                    </a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold leading-6 text-white">
+              Contact
+            </h3>
+            <ul role="list" class="mt-6 space-y-4">
+              <li class="flex flex-row space-x-2">
+                <i class="fa-solid fa-envelope fa-fw pt-1 pt-1 transition-transform duration-200 hover:scale-125"></i>
+                <a href="mailto:info@assured-training.org" class="text-sm">
+                  info@assured-training.org
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-16 border-t border-white/50 pt-8 sm:mt-20 lg:mt-24">
+      <p class="text-xs leading-5 text-white">&copy; 2025 &ndash; ASSURED collaboration. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
