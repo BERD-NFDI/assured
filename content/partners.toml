@@ -25,3 +25,7 @@ image = "bundesbank.svg"
 [[institution]]
 name = "University of the West of England"
 image = "uwe.svg"
+
+[[institution]]
+name = "BioQuant – Faculty of Law, Heidelberg University"
+image = "bio_quant.png"
