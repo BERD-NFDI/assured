@@ -7,7 +7,7 @@ image = "photos/wiltshire.png"
 [[person]]
 name = "Simon Parker"
 role = "Data Protection Coordinator"
-institution = "German Human Genome-Phenome Archive"
+institution = "BioQuant – Faculty of Law, Heidelberg University"
 image = "photos/parker.jpg"
 
 [[person]]

@@ -1,4 +1,36 @@
 [[news]]
+title = "Meet Dr. Frederic Gerdon"
+anews = '''
+
+Handling sensitive data responsibly is becoming an essential part of research. Yet for many researchers, formal training in safe, legal and ethical data use remains limited. 
+This is exactly the gap that [Dr. Frederic Gerdon](https://www.gesis.org/en/institute/about-us/staff/person/frederic.gerdon) is helping to address as a new member of the ASSURED project at [GESIS – Leibniz Institute for the Social Sciences](https://www.gesis.org/home).
+
+Frederic brings a combination of skills that align closely with ASSURED’s mission. His background rests on three core areas: empirical research, teaching, and data ethics. 
+Trained in quantitative methods, he has worked extensively with data throughout his academic career. This experience gives him a strong understanding of how sensitive data are produced, what makes them valuable, and why they require careful handling.
+
+Alongside his research expertise, Frederic has a clear commitment to teaching. He has taught at both Bachelor’s and Master’s levels and has completed formal training in higher education and learning. 
+For him, teaching is not just about delivering content, but about designing materials that people actively engage with. This perspective plays an important role in ASSURED, where the goal is not simply to inform researchers, but to support meaningful learning and fostering the motivation to keep engaging with the covered topics.
+
+A third pillar of his work is a long-standing interest in data ethics and privacy. Since his Master’s studies, Frederic has been engaged with questions around privacy and responsible data use. 
+He is also involved in collaborative efforts to integrate data ethics more systematically into university teaching, including work with researchers at LMU Munich. This focus feeds directly into ASSURED’s aim to promote the ethical use of sensitive data.
+
+Within the project, Frederic is primarily involved in developing and reviewing training modules. These modules cover key topics such as data ethics, legal frameworks for data protection, and statistical disclosure control. They are designed to support researchers working with sensitive data, particularly in secure environments such as Trusted Research Environments.
+
+The first of these modules is already in use, providing guidance for researchers accessing data through the Secure Data Center at GESIS. Further core modules are currently in development and will expand the training offering in the near future.
+
+What motivates Frederic most is the potential impact of this work. While researchers generally care about ethical and legal considerations, these topics are often addressed only in the context of specific projects. ASSURED aims to change that by offering structured, accessible training that researchers can use proactively.
+
+Looking ahead, Frederic is particularly interested in seeing the training adopted more widely, across research data centers and beyond. The longer-term vision is to make high-quality training in secure data use easier to access, more consistent across institutions, and ultimately more embedded in everyday research practice.
+
+
+'''
+date = "14 May, 2026"
+by = "Assured Training"
+pin = "true"
+originalurl = "https://assured-training.org/news/"
+
+
+[[news]]
 title = "🔒 Mastering Data Privacy: Join the ASSURED Workshop at IDCC 2026"
 anews = '''
 
