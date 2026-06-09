@@ -34,7 +34,7 @@ info@assured-training.org <br>
 Internet: [https://www.stat.lmu.de/soda/en/index.html](https://www.stat.lmu.de/soda/en/index.html)
 
 ## Enforcement Procedure
-If you do not receive a satisfactory response to your feedback or inquiry within six weeks, or if you believe that you are being disadvantaged by the insufficient accessibility of the GHGA websites, you may contact the BGG Arbitration Service:
+If you do not receive a satisfactory response to your feedback or inquiry within six weeks, or if you believe that you are being disadvantaged by the insufficient accessibility of the ASSURED website, you may contact the BGG Arbitration Service:
 
 BGG Arbitration Service
 at the Federal Government Commissioner for Matters relating to Persons with Disabilities <br>
