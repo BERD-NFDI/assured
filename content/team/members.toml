@@ -3,34 +3,40 @@ name = "Deborah Wiltshire"
 role = "Service Lead for the SDC"
 institution = "GESIS – Leibniz Institute for the Social Sciences"
 image = "photos/wiltshire.png"
+image_alt = "photo of Deborah Wiltshite"
 
 [[person]]
 name = "Simon Parker"
 role = "Data Protection Coordinator"
 institution = "BioQuant – Faculty of Law, Heidelberg University"
 image = "photos/parker.jpg"
+image_alt = "photo of Simon Parker"
 
 [[person]]
 name = "Wiebke Weber"
 role = "Scientific Manager"
 institution = "Social Data Science and AI Lab, LMU Munich"
 image = "photos/weber.jpg"
+image_alt = "photo of Wiebke Weber"
 
 [[person]]
 name = "Frederic Gerdon"
 role = "Postdoctoral Researcher"
 institution = "GESIS – Leibniz Institute for the Social Sciences"
-image = "photos/Photo_Gerdon1.jpg"
+image = "photos/Photo_Gerdon4.jpg"
+image_alt = "photo of Frederic Gerdon"
 
 [[person]]
 name = "Vanessa González Ribao"
 role = "Training Coordinator for Data Protection"
 institution = "German Human Genome-Phenome Archive"
 image = "photos/gonzález ribao.jpg"
+image_alt = "photo of Vanessa González Ribao"
 
 [[person]]
 name = "Markus Herklotz"
 role = "BERD Academy Coordinator"
 institution = "Social Data Science and AI Lab, LMU Munich"
 image = "photos/herklotz.png"
+image_alt = "photo of Markus Herklotz"
 

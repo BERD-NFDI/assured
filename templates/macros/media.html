@@ -1,5 +1,6 @@
-{% macro picture(img, widths, class="", attrs="") %}
+{% macro picture(img, widths, class="", attrs="", alt="") %}
   <img
+    alt="{{ alt }}"
     {% if img | split(pat=".") | last == "svg" %}
       src="{{ get_url(path=img) }}"
     {% else %}
@@ -28,8 +29,9 @@
   ){#- -#}
 {%- endmacro imageset %}
 
-{% macro picture_fill_square(img, widths, class="", attrs="") %}
+{% macro picture_fill_square(img, widths, class="", attrs="", alt="") %}
   <img
+    alt="{{ alt }}"
     {# Render multiple widths #}
     srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=w, op='fill') -%}{{ image.url }} {{ w }}w
@@ -43,8 +45,9 @@
   >
 {% endmacro picture %}
 
-{% macro picture_fill(img, widths, heights, class="", attrs="") %}
+{% macro picture_fill(img, widths, heights, class="", attrs="", alt="") %}
   <img
+    alt="{{ alt }}"
     {# Render multiple widths #}
     srcset="{% for w in widths -%}
       {%- set image = resize_image(path=img, width=w, height=heights[loop.index0], op='fill') -%}{{ image.url }} {{ w }}w
