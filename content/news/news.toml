@@ -1,4 +1,70 @@
 [[news]]
+title = "Why is Training the Missing Piece in Sensitive Data Access? 💡"
+anews = '''
+
+Sensitive data – health records, administrative registers, qualitative interviews touching on people's private lives – holds enormous value for research. But making it available safely is hard, and the people responsible for that work are telling us, clearly and consistently, what they need most: training.
+
+That's the headline finding from a recent study by the [CESSDA](https://www.cessda.eu/) (Consortium of European Social Science Data Archives) Sensitive Data Working Group, chaired by ASSURED team member Deb Wiltshire. Between April and May 2025, the group surveyed 20 Service Providers (i.e., institutions that provide access to research data) across Europe to understand what stands in the way of sharing sensitive data, and what support would help.
+
+**What the survey found**
+
+The results were striking. 65% of respondents identified training as a core need, ahead of legal expertise or guidance (55%) and examples of best practice (45%).
+
+Financial and human resources topped the list too, but training wasn't far behind – and it's notable that it outranked even legal guidance. Services aren't just short of rules to follow; they're short of the practical know-how to apply them.
+
+**Taking it further in Bergen**
+
+Those findings didn't stay on the page. At the CESSDA 50th Anniversary Conference in Bergen, Deb Wiltshire and Brian Kleiner (FORS, Switzerland) ran a workshop "Advancing Access to Sensitive Data", using a 'World Café' format to dig deeper into the themes the survey had surfaced:
+
+- Limited financial and human resources
+- Lack of technical solutions and infrastructure
+- Lack of know-how, experience, or skills
+- Concern about risk and liability
+- Demand from researchers and data owners
+
+Across every table and every theme, one message kept coming back: training matters, and it matters for two distinct groups – researchers and staff – each with different gaps to fill.
+
+**Researchers need practical guidance**
+
+Participants were blunt about the difficulties researchers face. Sensitive data is hard to access, and once access is granted, many users simply don't know how to handle it responsibly. A recurring problem was that researchers struggle to even recognise what counts as sensitive data in the first place, let alone how to manage it correctly through a project's lifecycle. What came up again and again was a simple, practical request: a checklist. Something concrete that tells researchers what to do at each stage, rather than leaving them to interpret abstract principles on their own.
+
+**Staff need it just as much – and the stakes are high**
+
+Training isn't only a researcher problem. Service provider staff were just as clear that they need formal training and guidance on what their organisation is actually required to do. Without that, individual staff members are left carrying decisions that should be backed by organisational policy and process.
+
+The consequences of getting it wrong loom large. As one participant put it, the words that came up most in their discussion were reputation and trust – and reputational damage from a sensitive data breach can outlast any legal penalty. That's a heavy responsibility to place on staff who haven't been given the tools to manage it.
+
+And the risk landscape is shifting. Participants pointed to generative AI as a new and largely unaddressed challenge: once data is fed into an AI tool, it may be impossible to remove, and even datasets that were previously considered low risk now carry a higher risk profile as a result. Staff can't be expected to navigate that shift without support.
+
+**The takeaway**
+
+Put together, the survey and the Bergen workshop tell a consistent story. Services want to open up access to sensitive data.  The demand from researchers is real, and so is the public value of that research. But limited resources, technical gaps, and above all a lack of skills and know-how are holding that work back, and the fear of what happens if something goes wrong is enough to make services cautious.
+
+Training won't solve every barrier on its own. But it's the one intervention that speaks to almost every theme on that list at once: it builds the know-how services say they're missing, it gives researchers the checklist they're asking for, it reduces the risk of costly mistakes, and it helps staff and researchers alike keep pace with a fast-changing technical landscape.
+
+**Where ASSURED fits in**
+
+This is exactly the gap the ASSURED project was set up to close, under the banner "safe research by safe people." It's building a suite of e-learning modules and a certification scheme, and its two-track design maps directly onto the needs this survey identified.
+
+For researchers, ASSURED offers short, self-paced, interactive modules – the practical, checklist-style guidance Bergen participants said was missing. Essential modules cover what every researcher needs to know, with optional modules for specific roles and datasets, so training stays relevant without becoming one-size-fits-all.
+
+For Research Data Centers and their staff, ASSURED provides a way to certify users and build team expertise systematically, rather than leaving staff to interpret organisational responsibilities alone – directly addressing the "what do we have to do as an organisation" gap raised repeatedly in the workshop.
+
+The certification model also speaks to the risk and reputation concerns raised in Bergen, giving services a defensible, consistent standard rather than ad hoc judgement calls. It's an approach already established in the UK; ASSURED is now adapting it for Germany and, in time, more of the CESSDA network – turning the training gap this survey uncovered into a concrete, shared solution.
+
+Read more about CESSDA at [cessda.eu](https://www.cessda.eu/), or explore ASSURED's training modules at [assured-training.org/trainings](https://assured-training.org/trainings/).
+
+
+
+'''
+date = "10 Aug, 2026"
+by = "Assured Training"
+pin = "true"
+originalurl = "https://www.linkedin.com/posts/assured-training_cessda-assured-datagovernance-activity-7490714109970378753-o3jE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFywn1ABrcxUoRYg8sgoo4kOk3TiqfnxRNI"
+source = "linkedin"
+
+
+[[news]]
 title = "Meet Dr. Frederic Gerdon"
 anews = '''
 
@@ -38,15 +104,15 @@ Registration is now OPEN for our essential workshop at the International Data Cu
 The ASSURED Project is developing an accreditation scheme for handling sensitive research data. This workshop is your opportunity to gain critical expertise.
 
 What You Will Learn:
-• Safe Outputs: Explore the issues emerging from sensitive data results and learn the principles for producing non-disclosive, safe outputs.
-• Key Techniques: Focus on methods like Statistical Disclosure Control (SDC) to minimise harm and protect privacy.
-• Interactive Training: This is a highly interactive-focused session, encouraging rich discussion among researchers and data professionals.
+- Safe Outputs: Explore the issues emerging from sensitive data results and learn the principles for producing non-disclosive, safe outputs.
+- Key Techniques: Focus on methods like Statistical Disclosure Control (SDC) to minimise harm and protect privacy.
+- Interactive Training: This is a highly interactive-focused session, encouraging rich discussion among researchers and data professionals.
 
 Who Should Attend?
 This training is important for:
-• Researchers working with sensitive data.
-• Data Curators and professionals involved in data access.
-• Anyone responsible for ethical data release.
+- Researchers working with sensitive data.
+- Data Curators and professionals involved in data access.
+- Anyone responsible for ethical data release.
 
 Elevate your professional standards. Secure your spot and become more confident in working with sensitive data.
 
@@ -73,22 +139,17 @@ This role is centered on our GESIS Secure Data Center and the exciting, multi-pa
 
 Your Impact Will Include:
 
-• Lead the coordination and communication for the multi-consortium ASSURED project.
-
-• Design and continuously improve digital learning materials (video tutorials, interactive exercises) in spatial transcriptomics data processing.
-
-• Contribute to high-impact research activities on data governance, privacy, and secure data infrastructures.
-
-• Provide essential support for the Secure Data Center, including conducting statistical disclosure reviews.
+- Lead the coordination and communication for the multi-consortium ASSURED project.
+- Design and continuously improve digital learning materials (video tutorials, interactive exercises) in spatial transcriptomics data processing.
+- Contribute to high-impact research activities on data governance, privacy, and secure data infrastructures.
+- Provide essential support for the Secure Data Center, including conducting statistical disclosure reviews.
 
 
 What We Are Looking For:
 
-• A completed Master’s degree and a completed or in-progress Ph.D. 🎓
-
-• Proven experience working in Trusted Research Environments (TREs) or with sensitive data.
-
-• Strong command of quantitative methods and statistical programs like Python, R, and Stata.
+- A completed Master’s degree and a completed or in-progress Ph.D. 🎓
+- Proven experience working in Trusted Research Environments (TREs) or with sensitive data.
+- Strong command of quantitative methods and statistical programs like Python, R, and Stata.
 
 
 We offer an international, interdisciplinary environment with flexible working hours, mobile working options, and excellent benefits, including subsidies for childcare.
