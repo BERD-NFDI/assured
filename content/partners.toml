@@ -37,3 +37,8 @@ image_alt = "University of the West of England logo"
 name = "BioQuant – Faculty of Law, Heidelberg University"
 image = "bio_quant.svg"
 image_alt = "BioQuant – Faculty of Law, Heidelberg University logo"
+
+[[institution]]
+name = "RDM Compas - Research Data Management Competence Base"
+image = "rdm.svg"
+image_alt = "RDM Compas - Research Data Management Competence Base logo"
