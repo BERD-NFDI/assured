@@ -1,0 +1,49 @@
+[[institution]]
+name = "GESIS"
+image = "gesis.svg"
+image_alt = "GESIS logo"
+
+[[institution]]
+name = "KONSORT-SWD"
+image = "konsort-swd.svg"
+image_alt = "KONSORT-SWD logo"
+
+[[institution]]
+name = "German Human Genome-Phenome Archive"
+image = "ghga.svg"
+image_alt = "German Human Genome-Phenome Archive logo"
+
+[[institution]]
+name = "BERD@NFDI"
+image = "berd.svg"
+image_alt = "BERD@NFDI logo"
+
+[[institution]]
+name = "Ludwig Maximilian University of Munich"
+image = "lmu.svg"
+image_alt = "Ludwig Maximilian University of Munich logo"
+
+[[institution]]
+name = "Bundesbank"
+image = "bundesbank.svg"
+image_alt = "Bundesbank logo"
+
+[[institution]]
+name = "University of the West of England"
+image = "uwe.svg"
+image_alt = "University of the West of England logo"
+
+[[institution]]
+name = "BioQuant – Faculty of Law, Heidelberg University"
+image = "bio_quant.svg"
+image_alt = "BioQuant – Faculty of Law, Heidelberg University logo"
+
+[[institution]]
+name = "RDM Compas - Research Data Management Competence Base"
+image = "rdm.svg"
+image_alt = "RDM Compas - Research Data Management Competence Base logo"
+
+[[institution]]
+name = "ondatix Datenwerkstatt"
+image = "ondatix.svg"
+image_alt = "ondatix Datenwerkstatt logo"

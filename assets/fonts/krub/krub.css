@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(Krub-ExtraLight.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(Krub-ExtraLightItalic.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(Krub-Light.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(Krub-LightItalic.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Krub-Regular.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Krub-Italic.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(Krub-Medium.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(Krub-MediumItalic.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(Krub-SemiBold.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(Krub-SemiBoldItalic.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(Krub-Bold.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Krub';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(Krub-BoldItalic.ttf) format('opentype');
+}
