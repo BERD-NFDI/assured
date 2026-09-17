@@ -1,4 +1,31 @@
 [[news]]
+title = "Training for the AI Era: Addressing Sensitive Data Challenges in Research Data Centers"
+anews = '''
+
+On 14–15 September in Cologne, the ASSURED Workshop brought together professionals from Research Data Centers (RDCs)  from Germany, the UK, and Canada to assess the current landscape of AI integration within RDCs and Trusted Research Environments (TREs). Participants shared perspectives on key technical, risk, and governance challenges when using sensitive data to work with AI, discussed how targeted training can help address these emerging infrastructure gaps.
+
+**Day 1 | Expert Talks**
+
+Sessions explored the technical and operational shift AI brings to secure data environments. Discussions covered context-dependent privacy risk taxonomies, disclosure risks and output controls like RELEASE-AI and SACRO-ML, early-pipeline mitigations across the TRE lifecycle, an AI policy developed at a German RDC,  clear policy boundaries for LLMs within Data Use Agreements, and multi-tiered data classification schemes paired with robust technical safeguards. 
+
+**Day 2 | Word Café**
+
+Building on the insights from Day 1, structured small-group dialogues synthesised individual perspectives into collective action. Discussions addressed researcher and staff requirements across three main areas: identifying essential technical skills, assessing AI risk exposure, and establishing robust governance frameworks to guide safe AI deployment. 
+
+Thank you to everyone from 🇩🇪, 🇬🇧, and 🇨🇦 for driving this vital conversation forward! 
+
+From here, we are developing plans to keep up the discussions in our community and work on joint outputs, such as guidelines on AI policies for TREs. If you’d like to join the conversation, please do not hesitate to reach out to us at info@assured-training.org! 
+
+
+'''
+date = "17 Sep, 2026"
+by = "Assured Training"
+pin = "true"
+originalurl = "https://www.linkedin.com/feed/update/urn:li:activity:7506277838493368320?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3BiyhaiT0uQNyzhraPDTzFDg%3D%3D"
+source = "linkedin"
+
+
+[[news]]
 title = "Why is Training the Missing Piece in Sensitive Data Access? 💡"
 anews = '''
 
