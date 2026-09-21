@@ -1,4 +1,3 @@
-[Founders]
 
 [[institution]]
 name = "KONSORT-SWD"
@@ -14,8 +13,6 @@ image_alt = "German Human Genome-Phenome Archive logo"
 name = "BERD@NFDI"
 image = "berd.svg"
 image_alt = "BERD@NFDI logo"
-
-[Partners]
 
 [[institution]]
 name = "GESIS"
