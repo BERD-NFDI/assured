@@ -1,7 +1,4 @@
-[[institution]]
-name = "GESIS"
-image = "gesis.svg"
-image_alt = "GESIS logo"
+[Founders]
 
 [[institution]]
 name = "KONSORT-SWD"
@@ -17,6 +14,13 @@ image_alt = "German Human Genome-Phenome Archive logo"
 name = "BERD@NFDI"
 image = "berd.svg"
 image_alt = "BERD@NFDI logo"
+
+[Partners]
+
+[[institution]]
+name = "GESIS"
+image = "gesis.svg"
+image_alt = "GESIS logo"
 
 [[institution]]
 name = "Ludwig Maximilian University of Munich"
