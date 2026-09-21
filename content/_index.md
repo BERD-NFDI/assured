@@ -40,7 +40,7 @@ sort_by = "weight"
 {{
   gallery_institution(
     title="Founders"
-    data_path="partners.toml"
+    data_path="founders.toml"
     image_path="team/logos/"
   )
 }}
