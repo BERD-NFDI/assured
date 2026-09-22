@@ -1,20 +1,5 @@
 
 [[institution]]
-name = "KONSORT-SWD"
-image = "konsort-swd.svg"
-image_alt = "KONSORT-SWD logo"
-
-[[institution]]
-name = "German Human Genome-Phenome Archive"
-image = "ghga.svg"
-image_alt = "German Human Genome-Phenome Archive logo"
-
-[[institution]]
-name = "BERD@NFDI"
-image = "berd.svg"
-image_alt = "BERD@NFDI logo"
-
-[[institution]]
 name = "GESIS"
 image = "gesis.svg"
 image_alt = "GESIS logo"
