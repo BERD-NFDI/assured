@@ -1,4 +1,43 @@
 [[news]]
+title = "Meet Dr. Vanessa González Ribao"
+anews = ''' 
+
+Handling sensitive data responsibly is essential for some types of research. But putting a set of rules, regulations or guidance documents online does not mean researchers will understand how those rules apply to their own work. Nor does it mean they will feel confident enough to act when they encounter an unfamiliar situation. 
+
+This is the gap Dr. Vanessa González Ribao is addressing as part of the ASSURED project. Vanessa develops and coordinates ASSURED’s e-learning platform, with the aim of supporting safe research by safe people. 
+
+At first glance, her path to this role may look atypical. Vanessa holds an international PhD in Contrastive Linguistics and has worked in lexicographic projects, databank development and scientific infrastructure. She also brings more than ten years of teaching experience. However, there is a clear thread running through this work: helping people make sense of complex information and use it well. 
+
+Vanessa was looking for a new challenge when she first saw the ASSURED role. “The training-coordinator part aligned perfectly with my background,” she explains, while data protection was “exactly the new challenge” she had been looking for. Since joining the project, she has been able to draw on her existing skills while developing new expertise in data protection and secure research environments, supported by a talented team of experts. 
+
+In her earlier work, Vanessa often translated complex research findings and specialist knowledge into accessible learning materials for different groups of users. As she puts it, this involved creating materials “tailored to the specific needs of diverse learners.” Her focus was simple: understand the audience, identify key takeaways, and structure content so it’s easy to use. She now brings this user-centered approach to ASSURED. 
+
+ASSURED serves researchers and other professionals working across different disciplines, countries and secure research settings. This creates an obvious challenge. There are core principles that everyone handling sensitive data should understand, but researchers do not all work with the same types of data, the same services or the same responsibilities. A one-size-fits-all training course would either become too general to be useful or so extensive that people would struggle to find the content relevant to them. 
+
+For Vanessa, the answer is modularity. “The secret lies in modular design,” she says. ASSURED is being developed as a flexible learning environment with core modules covering the baseline essentials of responsible data handling, alongside more specialised modules focused on particular data types, services and professional roles. A researcher, data manager or data steward may therefore share a common foundation while following a learning pathway suited to their own work. 
+
+This matters because the purpose of e-learning should not be to recreate a static guidance document in a web browser. As Vanessa puts it, information that requires people only to read, scroll or click “next” can remain a rather passive experience. People learn more effectively, she argues, when they “actively do things with the material rather than consume the theory.” 
+
+Instead, ASSURED aims to combine text, video, audio and infographics with activities that give learners something to do with the information. Some activities may test knowledge. Others may encourage reflection or allow learners to explore an issue in greater depth. The point is to help people connect general principles to the practical decisions they make in their own work. 
+
+Behind this is a substantial amount of work translating expert knowledge into learning. Sometimes the ASSURED team begins with conversations with domain experts, identifying what researchers need to know in order to work safely in a particular field. At other times, they begin with existing texts, slides or other source material. In both cases, the task is to identify the key learning objectives and then build the structure, activities and assessments that will help learners achieve them. 
+
+For Vanessa, however, the goal is larger than ensuring that researchers can complete a training module successfully. Working with sensitive research data can involve personal information and data concerning potentially vulnerable people. Researchers need to understand why safeguards exist in the first place, not merely memorise a series of requirements. 
+
+“When people understand how crucial it is to handle sensitive data responsibly,” Vanessa explains, “they become interested in learning best practices and are much more likely to apply them naturally in their day-to-day work.” 
+
+Just as importantly, she wants people to feel able to ask for help. Researchers can sometimes feel uncertain about how to handle a situation, or reluctant to admit that they do not know the answer. Vanessa’s goal is for people completing ASSURED training to “feel confident managing their daily responsibilities safely,” and to feel comfortable seeking guidance when they need it. 
+
+That is the contribution Vanessa is making to ASSURED: helping researchers understand, apply and feel confident about the responsibilities that come with working with sensitive data. 
+
+'''
+date = "15 Oct, 2026"
+by = "Assured Training"
+pin = "true"
+originalurl = "https://assured-training.org/news/"
+
+
+[[news]]
 title = "Training for the AI Era: Addressing Sensitive Data Challenges in Research Data Centers"
 anews = '''
 
