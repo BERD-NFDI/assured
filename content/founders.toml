@@ -1,3 +1,8 @@
+[[institution]]
+name = "BERD@NFDI"
+image = "berd.svg"
+image_alt = "BERD@NFDI logo"
+url = "https://www.berd-nfdi.de"
 
 [[institution]]
 name = "KONSORT-SWD"
