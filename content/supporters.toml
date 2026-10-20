@@ -19,9 +19,9 @@ image = "gesis.svg"
 image_alt = "GESIS logo"
 
 [[institution]]
-name = "Ludwig Maximilian University of Munich"
+name = "LMU Munich"
 image = "lmu.svg"
-image_alt = "Ludwig Maximilian University of Munich logo"
+image_alt = "LMU Munich logo"
 
 [[institution]]
 name = "Bundesbank"
