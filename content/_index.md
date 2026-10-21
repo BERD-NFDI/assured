@@ -39,15 +39,9 @@ sort_by = "weight"
 
 {{
   gallery_institution(
-    title="Funders"
-    data_path="founders.toml"
+    title="Supporters"
+    data_path="supporters.toml"
     image_path="team/logos/"
   )
 }}
 
-{{ gallery_institution( 
-     title="Partners" 
-     data_path="partners.toml" 
-     image_path="team/logos/" 
-     ) 
-     }}
