@@ -7,8 +7,8 @@ visible = "What is ASSURED?"
 hidden = "ASSURED certifies researchers as well as users and staff of Research Data Centers (RDC) by providing training for the safe and ethical use of sensitive, potentially disclosive data."
 
 [[accordion]]
-visible = "How is ASSURED financed?"
-hidden = """ASSURED is currently financed by KonsorsSWD, BERD@NFDI and GHGA.
+visible = "How is ASSURED funded?"
+hidden = """ASSURED is currently supported by the NFDI-Consortia KonsorsSWD, BERD@NFDI and GHGA, which are funded by the DFG.
 
 - KonsortSWD is funded by the German Research Foundation (DFG) within the framework of the NFDI (project number: 442494171)
 - BERD@NFDI is funded by the German Research Foundation (DFG) within the framework of the NFDI (NFDI 27/1-2026, project number 460037581)
